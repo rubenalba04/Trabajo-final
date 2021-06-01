@@ -75,7 +75,7 @@
   text-decoration: underline 1px #D58936; }
 
 button .navbar-toggler {
-  background: #fcefef; }
+  border: none; }
 
 /*Inicio Estilos nav*/
 /*Inicio background*/
@@ -136,6 +136,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Fin Estilos titulos y parrafos*/
 /*Inicio Estilos generales*/
+.logo {
+  display: block;
+  margin: auto;
+  width: 15%; }
+
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
 .card {
@@ -201,6 +206,9 @@ h1, h2, h3, h4, h5, h6 {
 .main__acordion-cerveza {
   background: #852525;
   margin: 30px 30px; }
+
+.carrusel-cerveza {
+  width: 50%; }
 
 .accordion-item {
   background-color: #D58936; }

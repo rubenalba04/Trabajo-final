@@ -20,12 +20,10 @@
 
 <body>
   <section class="container"><!-- inicio contenedor de nav -->
+    <a class="navbar-brand" href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
     <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="/index.html">
-        <img src="logos/logo.png" alt="logo del sitio"style="max-height: 100px; max-width: 100px;">
-      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+        <span><i class="bi bi-list"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav nav-fill w-100">
@@ -49,23 +47,30 @@
     </nav> 
   </section> <!-- cierra container de nav -->
   
-  <div class="sidebar"> <!--contenedor sidebar -->
-    <a href="/index.html" class="d-block nav-link py-3 border-bottom text-center" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-house"></i>
-    </a>
-    <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-    <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-geo-alt"></i>
-    </a>
-    <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-facebook" ></i>
-    </a>
-    <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-instagram"></i> 
-    </a>
-  </div><!-- fin contenedor sidebar -->
+  <section class="container__sidebar"><!--contenedor sidebar -->
+        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
+        <span><i class="bi bi-layout-text-sidebar"></i></span>
+        </button>
+    <div class="collapse" id="colapso__sidebar">
+      <div class="sidebar"> 
+        <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-house"></i>
+        </a>
+        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-geo-alt"></i>
+        </a>
+        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-facebook" ></i>
+        </a>
+        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-instagram"></i> 
+        </a>
+      </div>
+    </div>
+  </section><!-- fin contenedor sidebar -->
     
   <section class="container"><!-- inicio container de header -->
     <header class="header">
@@ -77,21 +82,15 @@
     </header> 
   </section><!-- fin contenedor de header -->
   
-  <section class="container"><!-- inicio container de main -->
+  <section class="container"><!-- inicio clase row-->
     <main class="main">
       <div class="row justify-content-center">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <h2 class="main__titulo">Un Poco de Nuestra Historia</h2>
-        </div>
-      </div><!-- fin container de main-->
+        </div><!-- fin clase row-->
+      </div>
       
-      <div>
-        <iframe src="https://www.youtube.com/embed/bezEcserpU0" allowfullscreen></iframe>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad   minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo consequat. Duis aute irure dolor in reprehenderit in   voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur   sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   mollit anim id est laborum.
-        </div>
-    
-        
-      <!-- <div class="row align-items-center justify-content-center">
+      <div class="row align-items-center justify-content-center">
         <div class="col-sm-12 col-md-10 col-lg-6 col-xl-6">
             <p class="main__parrafo">Nuestra historia comienza en un frio invierno de Julio del año 2011… 
             Después de mucho pensar en que tipo de rubro emprenderíamos, 
@@ -105,7 +104,7 @@
             un local moderno, adaptado a los tiempos actuales pero sin perder nuestro compromiso 
             con la calidad, los recursos naturales y con la responsabilidad social 
             que ganamos a lo largo de los años.</p> 
-        </div>  -->
+        </div> 
         
         <div class="col-sm-8 col-md-7 col-lg-5 col-xl-5">
           <div class="main__video">

@@ -20,12 +20,10 @@
 
 <body>
   <section class="container"><!-- inicio contenedor de nav -->
+    <a class="navbar-brand" href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
     <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="/index.html">
-        <img src="logos/logo.png" alt="logo del sitio"style="max-height: 100px; max-width: 100px;">
-      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+        <span><i class="bi bi-list"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav nav-fill w-100">
@@ -49,23 +47,30 @@
     </nav> 
   </section> <!-- cierra container de nav -->
   
-  <div class="sidebar"> <!--contenedor sidebar -->
-    <a href="/index.html" class="d-block nav-link py-3 border-bottom text-center" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-house"></i>
-    </a>
-    <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-    <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-geo-alt"></i>
-    </a>
-    <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-facebook" ></i>
-    </a>
-    <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-      <i class="bi bi-instagram"></i> 
-    </a>
-  </div><!-- fin contenedor sidebar -->
+  <section class="container__sidebar"><!--contenedor sidebar -->
+        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
+        <span><i class="bi bi-layout-text-sidebar"></i></span>
+        </button>
+    <div class="collapse" id="colapso__sidebar">
+      <div class="sidebar"> 
+        <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-house"></i>
+        </a>
+        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-geo-alt"></i>
+        </a>
+        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-facebook" ></i>
+        </a>
+        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-instagram"></i> 
+        </a>
+      </div>
+    </div>
+  </section><!-- fin contenedor sidebar -->
     
   <section class="container"><!-- inicio container de header -->
     <header class="header">
@@ -177,7 +182,7 @@
       </div> <!--  cierra div row -->
 
       <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
           <div class="card">
             <img src="./imagenes/nuestra-carta/menu-papas.png" class="card-img-top" alt="menu-papas">
             <div class="card card-body">
@@ -213,7 +218,7 @@
           </div>
         </div> <!-- cierra div col -->
 
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
           <div class="card">
             <img src="./imagenes/nuestra-carta/menu-platos.png" class="card-img-top" alt="menu-platos">
             <div class="card card-body">
@@ -240,7 +245,7 @@
         </div> <!-- cierra div col -->
         
         
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-3">
+        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
           <div class="card">
             <img src="./imagenes/nuestra-carta/menu-bebidas.png" class="card-img-top" alt="menu-bebidas">
             <div class= "card card-body">

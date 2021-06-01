@@ -18,11 +18,8 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    }
-    
-// body{
-//     background: $negro;    
-// }
+}
+
 .footer{
     background: $gris;
     border: solid 2px $negro;
@@ -69,7 +66,11 @@ font-size: 45px;
 
 /*Inicio Estilos generales*/
 
-
+.logo{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
 /*Fin Estilos Generales*/
 
 
@@ -138,6 +139,10 @@ font-size: 45px;
 .main__acordion-cerveza{
     background: $rojo;
     margin: 30px 30px;
+}
+
+.carrusel-cerveza{
+    width: 50%;
 }
 
 .accordion-item{
