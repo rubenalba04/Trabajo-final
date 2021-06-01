@@ -1,0 +1,191 @@
+*{
+margin: 0;
+padding: 0;
+}
+@import"variables";
+@import"mixin";
+// Inicio estilos sidebar 
+@import"sidebar.scss";
+// fin estilos sidebar 
+
+// Inicio estilos navbar 
+@import"navbar.scss";
+// fin estilos navbar 
+
+/*Inicio background*/
+body{
+    background:url(../imagenes/index-images/fondo_index.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+    
+// body{
+//     background: $negro;    
+// }
+.footer{
+    background: $gris;
+    border: solid 2px $negro;
+}
+
+.main{
+    background: $rojo;
+    border: solid 2px $negro;
+}
+/*fin background*/
+
+/*Inicio Estilos titulos y parrafos*/
+
+p{
+    @include parrafo;
+}
+
+.btn{
+    @include boton;
+}
+
+h1,h2,h3,h4,h5,h6{
+    @include titulos;
+}
+
+.header__titulo {
+font-size: 40px;
+padding:max-content;
+margin: max-content;
+transition: font-size 2s ease-in;
+}
+
+.header__titulo:hover{
+font-size: 45px;   
+}
+
+.footer{
+    p{
+        margin:2px 2px;
+        padding: auto;
+    }
+}
+/*Fin Estilos titulos y parrafos*/
+
+/*Inicio Estilos generales*/
+
+
+/*Fin Estilos Generales*/
+
+
+/*Inicio estilos Index*/
+
+.card{
+    background:$oro ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: $sombra;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*Fin estilos Index*/ 
+
+
+
+/*Inicio estilos quienes somos*/
+.main__parrafo{
+    word-spacing: 5px;
+    margin: 20px;
+    border: 5px solid black;
+}
+.main__video {
+    @include iframe-contenedor;
+}
+
+.main__video iframe,
+.main__video object,
+.main__video embed {
+    @include responsive-iframe;
+}
+
+.carousel{
+    @include carrusel;
+    }
+
+/*Fin de Estilos quienes somos*/
+
+
+/*Inicio estilos nuestra carta*/
+.accordion-body{
+    ul{
+        li{
+            @include listas;
+            text-align: left;
+        }
+    }
+}
+
+.accordion-body{
+    ol{
+        list-style:circle;
+        text-align: left;
+    }
+}
+
+/*Fin Estilos nuestra carta*/
+
+
+/*Inicio estilos Cerveza*/
+.main__acordion-cerveza{
+    background: $rojo;
+    margin: 30px 30px;
+}
+
+.accordion-item{
+    background-color: $oro;
+    h2{
+    text-align: center;
+        button{
+        background-color: $gris;
+        color: $blanco;
+        }
+    }
+}
+
+.accordion-item{
+    h2{
+        button:hover{
+        background-color:$blanco ;
+        color:$gris ;
+        }
+    }
+}
+
+
+/*Fin Estilos Cerveza*/
+
+/*Inicio Estilos contacto*/
+
+th,td{
+    color:$blanco;
+    
+}
+.form-group>.btn{
+    text-align: justify;
+    display: inline-block;
+    margin: auto;
+}
+
+label{
+@include parrafo;
+}
+
+.main__mapa{
+@include iframe-contenedor;
+}
+
+.main__mapa iframe,
+.main__mapa object,
+.main__mapa embed {
+@include responsive-iframe;
+}
+/*Fin Estilos contacto*/

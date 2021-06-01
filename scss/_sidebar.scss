@@ -1,0 +1,68 @@
+@import"variables";
+// Inicio estilos sidebar 
+.container__sidebar>{
+	button{
+	position: fixed;
+	right: 0;
+	top: 28%;
+	font-size: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;	
+}
+}
+
+
+.sidebar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.bi {
+    color: #FCEFEF;
+	padding: .5rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.bi-whatsapp{
+    background: #4dc247;
+}
+.bi-facebook {
+	background: #2E406E;
+}
+
+.bi-geo-alt {
+	background: $gris;
+}
+
+.bi-house {
+	background: $oro;
+}
+
+.bi-instagram {
+	background: #FD1D1D ;
+}
+
+.bi:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.bi:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.bi:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+// fin estilos sidebar 

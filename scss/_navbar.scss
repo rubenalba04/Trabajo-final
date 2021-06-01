@@ -1,0 +1,40 @@
+@import"variables";
+@import"mixin";
+
+/*Inicio Estilos nav*/
+.navbar{
+    background:none;
+    font-family: $roboto;
+    background: $gris;
+    margin: 0px;
+    border-radius: 20px;
+}
+.navbar-nav{
+    .nav-item{
+        .nav-link {
+            color: #FCEFEF;
+            text-shadow: $sombratexto;
+            font-size: 18px;
+            transition:all 0.8s ease-in;
+            padding: auto;
+            }
+    }
+
+}
+
+.navbar-nav{
+    .nav-item{
+        .nav-link:hover{
+        font-size: 20px;
+        color: $oro;
+        text-decoration:underline 1px  $oro;
+        }
+    }
+
+}
+button{
+    .navbar-toggler{  
+    background: $blanco;
+    }
+}
+/*Inicio Estilos nav*/
