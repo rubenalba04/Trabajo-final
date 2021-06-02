@@ -13,7 +13,7 @@ padding: 0;
 // fin estilos navbar 
 
 /*Inicio background*/
-body{
+.body_index{
     background:url(../imagenes/index-images/fondo_index.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -141,7 +141,7 @@ font-size: 45px;
     margin: 30px 30px;
 }
 
-.carrusel-cerveza{
+#carrusel-cerveza{
     width: 50%;
 }
 

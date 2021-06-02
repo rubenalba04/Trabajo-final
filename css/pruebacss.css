@@ -60,6 +60,8 @@
   font-family: "Roboto Slab", serif;
   background: #212529;
   margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-radius: 20px; }
 
 .navbar-nav .nav-item .nav-link {
@@ -79,7 +81,7 @@ button .navbar-toggler {
 
 /*Inicio Estilos nav*/
 /*Inicio background*/
-body {
+.body_index {
   background: url(../imagenes/index-images/fondo_index.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -207,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #852525;
   margin: 30px 30px; }
 
-.carrusel-cerveza {
+#carrusel-cerveza {
   width: 50%; }
 
 .accordion-item {
