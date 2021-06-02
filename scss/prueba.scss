@@ -75,6 +75,21 @@ font-size: 45px;
 
 
 /*Inicio estilos Index*/
+.card{
+    div{
+        img{
+            transition: 2s linear;
+        }
+    }
+}  
+
+.card{
+    div{
+        img:hover{
+            box-shadow: 10px 10px 14px 2px $blanco;
+        }
+    }
+}  
 
 .card{
     background:none ;
@@ -88,6 +103,16 @@ font-size: 45px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.card-title{
+    font-size: 30px;
+    text-shadow: 3px 3px 4px $negro;
+}
+
+.card-text{
+    font-size: 20px;
+    text-shadow: 3px 3px 4px $negro;
 }
 /*Fin estilos Index*/ 
 
