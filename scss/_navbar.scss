@@ -32,8 +32,16 @@
         }
     }
 }
+
+.navbar .navbar-toggler{
+    color: none;
+    border: 2px solid turquoise;
+}
+
 button{
     .navbar-toggler{
-        border: none;
+        color: violet;
+        border-color: transparent!important;
+        
     }
 }

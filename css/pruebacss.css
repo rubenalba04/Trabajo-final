@@ -75,22 +75,31 @@
   color: #D58936;
   text-decoration: underline 1px #D58936; }
 
+.navbar .navbar-toggler {
+  color: none;
+  border: 2px solid turquoise; }
+
 button .navbar-toggler {
-  border: none; }
+  color: violet;
+  border-color: transparent !important; }
 
 /*Inicio background*/
-body {
-  background: url(../imagenes/index-images/fondo.jpg);
+.header_index {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/index-images/fondo.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
 
-.footer {
+body {
+  background: #852525; }
+
+footer {
   background: #212529;
   border: solid 2px #101112; }
 
-.main {
-  background: #852525;
+main {
+  background: #D58936;
   border: solid 2px #101112; }
 
 /*fin background*/
