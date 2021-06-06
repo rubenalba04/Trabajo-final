@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 .container__sidebar > button {
   position: fixed;
@@ -60,8 +61,7 @@
   background: #212529;
   margin: 0px;
   margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 20px; }
+  margin-bottom: 5px; }
 
 .navbar-nav .nav-item .nav-link {
   color: #FCEFEF;
@@ -76,29 +76,171 @@
   text-decoration: underline 1px #D58936; }
 
 .navbar .navbar-toggler {
-  color: none;
-  border: 2px solid turquoise; }
+  color: none; }
 
-button .navbar-toggler {
-  color: violet;
-  border-color: transparent !important; }
+.navbar-toggler:hover {
+  text-decoration: none; }
+
+#catalogo .catalogo-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+#catalogo .catalogo-item .catalogo-link {
+  position: relative;
+  display: block;
+  margin: 0 auto; }
+
+#catalogo .catalogo-item .catalogo-link .catalogo-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #21252960;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s; }
+
+#catalogo .catalogo-item .catalogo-link .catalogo-hover .catalogo-hover-content {
+  font-size: 1.25rem;
+  color: white; }
+
+#catalogo .catalogo-item .catalogo-link:hover .catalogo-hover {
+  opacity: 1; }
+
+#catalogo .catalogo-item .catalogo-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #852525; }
+
+#catalogo .catalogo-item .catalogo-caption .catalogo-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Roboto Slab", serif;
+  color: #fcefef;
+  font-weight: 700;
+  margin-bottom: 0; }
+
+#catalogo .catalogo-item .catalogo-caption .catalogo-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", serif; }
+
+.catalogo-modal .modal-dialog {
+  margin: auto;
+  max-width: 50vw;
+  max-height: 20vh;
+  display: block; }
+
+.catalogo-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  background: #852525; }
+
+.catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
+  font-size: 2rem;
+  line-height: 3rem; }
+
+.catalogo-modal .modal-content p.item-intro {
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", serif; }
+
+.catalogo-modal .modal-content p {
+  margin-bottom: 2rem; }
+
+.catalogo-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem; }
+  .catalogo-modal .modal-content ul.list-inline li, .catalogo-modal .modal-content ul.list-inline ol {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #fcefef;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 10px 10px;
+    margin: 10px 10px; }
+
+.catalogo-modal .modal-content img {
+  margin-bottom: 2rem; }
+
+.catalogo-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent; }
+
+.catalogo-modal .close-modal:hover {
+  opacity: 0.3; }
 
 /*Inicio background*/
 .header_index {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/index-images/fondo.jpg);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-index.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh; }
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+
+.header_nosotros {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-nosotros.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+
+.header_carta {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-carta.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+
+.header_cerveza {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-cerveza.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+
+.header_contacto {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-contacto.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
 
 body {
-  background: #852525; }
+  width: 100%;
+  background: none; }
 
 footer {
   background: #212529;
+  width: 100%;
   border: solid 2px #101112; }
 
 main {
+  width: 100%;
   background: #D58936;
   border: solid 2px #101112; }
 
@@ -127,8 +269,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   word-spacing: 5px;
   line-height: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 .header__titulo {
   font-size: 40px;
@@ -232,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 30px 30px; }
 
 #carrusel-cerveza {
-  width: 45%; }
+  width: 70%; }
   #carrusel-cerveza .carousel-caption p {
     font-size: 25px;
     text-shadow: 2px 2px 3px #101112; }

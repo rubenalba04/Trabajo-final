@@ -20,296 +20,395 @@
   <link rel="stylesheet" href="css/pruebacss.css">
 </head>
 
-<body>
-  <section class="container"><!-- inicio contenedor de nav -->
-    <a class="navbar-brand" href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
-    <nav class="navbar navbar-expand-md">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="bi bi-list"></i></span>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-2" id="mainNav">
+  <div class="container">
+      <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav nav-fill w-100">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nuestracarta.html">Nuestra Carta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cerveza.html">Cerveza</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="nuestracarta.html">Nuestra Carta</a></li>
+              <li class="nav-item"><a class="nav-link" href="cerveza.html">Cerveza</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
       </div>
-    </nav> 
-  </section> <!-- cierra container de nav -->
-  
-  <section class="container__sidebar"><!--contenedor sidebar -->
-        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
-        <span><i class="bi bi-layout-text-sidebar"></i></span>
-        </button>
-    <div class="collapse" id="colapso__sidebar">
-      <div class="sidebar"> 
-        <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-house"></i>
-        </a>
-        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-whatsapp"></i>
-        </a>
-        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-geo-alt"></i>
-        </a>
-        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-facebook" ></i>
-        </a>
-        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-instagram"></i> 
-        </a>
-      </div>
+  </div>
+</nav>
+
+<body>
+
+<header class="header_carta">
+
+<section class="container">
+  <div class="row">
+    <a href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
+  </div>
+</section>
+
+<section class="container__sidebar"><!--contenedor sidebar -->
+    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
+      <span><i class="bi bi-layout-text-sidebar"></i></span>
+    </button>
+  <div class="collapse" id="colapso__sidebar">
+    <div class="sidebar"> 
+      <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-house"></i>
+      </a>
+      <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-geo-alt"></i>
+      </a>
+      <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-facebook" ></i>
+      </a>
+      <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-instagram"></i> 
+      </a>
     </div>
-  </section><!-- fin contenedor sidebar -->
+  </div>
+</section><!-- fin contenedor sidebar -->
+
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 col-md-10 col-lg-12">
+      <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
+      <h2>Hecha un vistazo a nuestro menú</h2>
+    </div>
+  </div>
+</section>
     
-  <section class="container"><!-- inicio container de header -->
-    <header class="header">
-      <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-10 col-lg-12 col-xl-12">
-          <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
-        </div>
-      </div>
-    </header> 
-  </section><!-- fin contenedor de header -->
+</header> <!-- fin contenedor de header -->
   
-  <section class="container">
-    <main class="main">
-      <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-10 col-lg-12 col-xl-12">
-          <h2>Hecha un vistazo a nuestro menú</h2>
+  
+<main class="main">
+  
+      <!-- catalogo Grid-->
+      <section id="catalogo">
+      <section class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Nuestra Carta</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- catalogoitem 1-->
+                        <div class="catalogo-item sandwichs">
+                            <a class="catalogo-link" data-bs-toggle="modal" href="#catalogoModal1">
+                                <div class="catalogo-hover">
+                                    <div class="catalogo-hover-content"><i class="bi bi-plus-lg"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./imagenes/nuestra-carta/menu-sandwichs.png" alt="sandwichs" />
+                            </a>
+                            <div class="catalogo-caption">
+                                <div class="catalogo-caption-heading">Sandwichs</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- catalogo item 2-->
+                        <div class="catalogo-item burgers">
+                            <a class="catalogo-link" data-bs-toggle="modal" href="#catalogoModal2">
+                                <div class="catalogo-hover">
+                                    <div class="catalogo-hover-content"><i class="bi bi-plus-lg"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./imagenes/nuestra-carta/menu-burgers.png" alt="burgers" />
+                            </a>
+                            <div class="catalogo-caption">
+                                <div class="catalogo-caption-heading">Hamburguesas</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- catalogo item 3-->
+                        <div class="catalogo-item papas">
+                            <a class="catalogo-link" data-bs-toggle="modal" href="#catalogoModal3">
+                                <div class="catalogo-hover">
+                                    <div class="catalogo-hover-content"><i class="bi bi-plus-lg"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./imagenes/nuestra-carta/menu-papas.png" alt="papas" />
+                            </a>
+                            <div class="catalogo-caption">
+                                <div class="catalogo-caption-heading">Papas</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- catalogo item 4-->
+                        <div class="catalogo-item pizzas">
+                            <a class="catalogo-link" data-bs-toggle="modal" href="#catalogoModal4">
+                                <div class="catalogo-hover">
+                                    <div class="catalogo-hover-content"><i class="bi bi-plus-lg"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./imagenes/nuestra-carta/menu-pizza.png" alt="pizzas" />
+                            </a>
+                            <div class="catalogo-caption">
+                                <div class="catalogo-caption-heading">Pizzas</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- catalogo item 5-->
+                        <div class="catalogo-item otros">
+                            <a class="catalogo-link" data-bs-toggle="modal" href="#catalogoModal5">
+                                <div class="catalogo-hover">
+                                    <div class="catalogo-hover-content"><i class="bi bi-plus-lg"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./imagenes/nuestra-carta/menu-platos.png" alt="platos" />
+                            </a>
+                            <div class="catalogo-caption">
+                                <div class="catalogo-caption-heading">Otros Platos</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- catalogo item 6-->
+                        <div class="catalogo-item bebidas">
+                            <a class="catalogo-link" data-bs-toggle="modal" href="#catalogoModal6">
+                                <div class="catalogo-hover">
+                                    <div class="catalogo-hover-content"><i class="bi bi-plus-lg"></i></div>
+                                </div>
+                                <img class="img-fluid" src="./imagenes/nuestra-carta/menu-bebidas.png" alt="bebidas" />
+                            </a>
+                            <div class="catalogo-caption">
+                                <div class="catalogo-caption-heading">Bebidas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        <!-- catalogo Modals-->
+        <!-- catalogo item 1 modal popup-->
+        <div class="catalogo-modal modal fade" id="catalogoModal1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="close-modal" data-bs-dismiss="modal"><i class="bi bi-x-square-fill" style="font-size: 2rem; background-color:#101112;"></i></div>
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                      <div class="modal-body">
+                        <!-- Project details-->
+                        <h2 class="text-uppercase">Sandwichs</h2>
+                          <ul class="list-inline">
+                              <li>Milanesa: Común-Especial</li>
+                              <li>Lomito: Común-Especial</li>
+                              <li>Tostados:</li>
+                                <li>Ternera y Queso</li>
+                                <li>Jamon y queso</li>
+                          </ul>
+                          <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                            Cerrar
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+      <!-- catalogo item 2 modal popup-->
+      <div class="catalogo-modal modal fade" id="catalogoModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><i class="bi bi-x-square-fill" style="font-size: 2rem; background-color:#101112;"></i></div>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <!-- Project details-->
+                      <h2 class="text-uppercase">Hamburguesas</h2>
+                        <ul class="list-inline">
+                          <li>Single</li>
+                          <li>Especial</li>
+                          <li>Pecadora</li>
+                          <li>Don Roque</li>
+                          <li>Don Enrique</li>
+                          <li>Matambrito</li>
+                        </ul>
+                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                          Cerrar
+                        </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
       
-      <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
-          <div class="card">
-            <img src="./imagenes/nuestra-carta/menu-burgers.png" class="card-img-top" alt="menu-burgers">
-            <div class="card card-body">
-              <div class="accordion accordion-flush" id="acordion_burgers">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      BURGERS
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Single</li>
-                        <li>Especial</li>
-                        <li>Pecadora</li>
-                        <li>Don Roque</li>
-                        <li>Don Enrique</li>
-                        <li>Matambrito</li>
-                      </ul>
+      <!-- catalogo item 3 modal popup-->
+          <div class="catalogo-modal modal fade" id="catalogoModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="bi bi-x-square-fill" style="font-size: 2rem; background-color:#101112;"></i></div>
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                        <div class="modal-body">
+                          <!-- Project details-->
+                          <h2 class="text-uppercase">Papas</h2>
+                            <ul class="list-inline">
+                              <li>Clásicas
+                                <ol>
+                                    <li>Porción Chica</li>
+                                    <li>Porción Grande</li>
+                                </ol>
+                            </li>
+                            <li>Con Cheddar: Chicas/Grandes
+                                <ol>
+                                    <li>Porción Chica</li>
+                                    <li>Porción Grande</li>
+                                </ol>
+                            </li>
+                            <li>Papas Don Enrique</li>
+                            </ul>
+                            <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                              Cerrar
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+      <!-- catalogo item 4 modal popup-->
+      <div class="catalogo-modal modal fade" id="catalogoModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><i class="bi bi-x-square-fill" style="font-size: 2rem; background-color:#101112;"></i></div>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <!-- Project details-->
+                      <h2 class="text-uppercase">Pizzas</h2>
+                        <ul class="list-inline">
+                          <li>Muzza</li>
+                          <li>Jamon y Morron</li>
+                          <li>Napolitana</li>
+                          <li>Fugazzeta</li>
+                          <li>Roquefort</li>
+                          <li>Calabresa</li>
+                          <li>Choclo y Huevo</li>
+                          <li>Rúcula y Jamon Crudo</li>
+                          <li>Ternera</li>
+                          <li>Don Enrique</li>
+                        </ul>
+                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                          Cerrar
+                        </button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
-          <div class="card">
-            <img src="./imagenes/nuestra-carta/menu-sandwichs.png" class="card-img-top" alt="menu-sandwichs">
-            <div class="card card-body">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      SANDICHS
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Milanesa: Común-Especial</li>
-                        <li>Lomito: Común-Especial</li>
-                        <li>Tostados</li>
-                      </ul>
+      </div>
+      
+      <!-- catalogo item 5 modal popup-->
+      <div class="catalogo-modal modal fade" id="catalogoModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><i class="bi bi-x-square-fill" style="font-size: 2rem; background-color:#101112;"></i></div>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <!-- Project details-->
+                      <h2 class="text-uppercase">Otros Platos</h2>
+                        <ul class="list-inline">
+                          <li>Milanesa a la napolitana</li>
+                          <li>Mexicano</li>
+                          <li>Lomo pizza</li>
+                        </ul>
+                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                          Cerrar
+                        </button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-        
-        
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
-          <div class="card">
-            <img src="./imagenes/nuestra-carta/menu-pizza.png" class="card-img-top" alt="menu-pizza">
-            <div class="card card-body">
-              <div class="accordion accordion-flush" id="cordion_pizzas">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      PIZZAS
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Muzza</li>
-                        <li>Jamon y Morron</li>
-                        <li>Napolitana</li>
-                        <li>Fugazzeta</li>
-                        <li>Roquefort</li>
-                        <li>Calabresa</li>
-                        <li>Choclo y Huevo</li>
-                        <li>Rúcula y Jamon Crudo</li>
-                        <li>Ternera</li>
-                        <li>Don Enrique</li>
-                    </ul>
+      </div>
+
+      <!-- catalogo item 6 modal popup-->
+      <div class="catalogo-modal modal fade" id="catalogoModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><i class="bi bi-x-square-fill" style="font-size: 2rem; background-color:#101112;"></i></div>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <!-- Project details-->
+                      <h2 class="text-uppercase">Bebidas</h2>
+                        <ul class="list-inline">
+                            <li>Linea Coca de 1lt
+                                <ol>
+                                    <li>Coca Cola</li>
+                                    <li>Fanta</li>
+                                    <li>sprite</li>
+                                </ol>
+                            </li>
+                            <li>Linea Coca de 500ml
+                                <ol>
+                                    <li>Coca Cola</li>
+                                    <li>Fanta</li>
+                                    <li>sprite</li>
+                                </ol>
+                            </li>
+                            <li>Agua Saborizada 1,5lt</li>
+                            <li>Agua Mineral 500 ml</li>
+                        </ul>
+                        
+                        <h5>Cerveza</h5>
+                        <ul class="list-inline">
+                            <li>Quilmes 1lt</li>
+                            <li>Salta Rubia/Negra 1lt</li>
+                            <li>Artesanal: 
+                                <ol>
+                                    <li>Honey</li>
+                                    <li>IPA</li>
+                                    <li>Golden</li>
+                                    <li>Lager</li>    
+                                </ol>
+                            </li>
+                        </ul>
+                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                          Cerrar
+                        </button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-      </div> <!--  cierra div row -->
+      </div>
 
-      <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
-          <div class="card">
-            <img src="./imagenes/nuestra-carta/menu-papas.png" class="card-img-top" alt="menu-papas">
-            <div class="card card-body">
-              <div class="accordion accordion-flush" id="acordion_papas">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      PAPAS
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Clásicas
-                            <ol>
-                                <li>Porción Chica</li>
-                                <li>Porción Grande</li>
-                            </ol>
-                        </li>
-                        <li>Con Cheddar: Chicas/Grandes
-                            <ol>
-                                <li>Porción Chica</li>
-                                <li>Porción Grande</li>
-                            </ol>
-                        </li>
-                        <li>Papas Don Enrique</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- cierra div col -->
-
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
-          <div class="card">
-            <img src="./imagenes/nuestra-carta/menu-platos.png" class="card-img-top" alt="menu-platos">
-            <div class="card card-body">
-              <div class="accordion accordion-flush" id="acordion_platos">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                      OTROS PLATOS
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Milanesa a la napolitana</li>
-                        <li>Mexicano</li>
-                        <li>Lomo pizza</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!-- cierra div col -->
-        
-        
-        <div class="col-sm-8 col-md-5 col-lg-3 col-xl-4">
-          <div class="card">
-            <img src="./imagenes/nuestra-carta/menu-bebidas.png" class="card-img-top" alt="menu-bebidas">
-            <div class= "card card-body">
-              <div class="accordion accordion-flush" id="acordion_bebidas">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                      BEBIDAS
-                    </button>
-                  </h2>
-                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      <h5>Sin Alcohol</h5> 
-                      <ul>
-                          <li>Linea Coca de 1lt
-                              <ol>
-                                  <li>Coca Cola</li>
-                                  <li>Fanta</li>
-                                  <li>sprite</li>
-                              </ol>
-                          </li>
-                          <li>Linea Coca de 500ml
-                              <ol>
-                                  <li>Coca Cola</li>
-                                  <li>Fanta</li>
-                                  <li>sprite</li>
-                              </ol>
-                          </li>
-                          <li>Agua Saborizada 1,5lt</li>
-                          <li>Agua Mineral 500 ml</li>
-                      </ul>
-                      
-                      <h5>Cerveza</h5>
-                      <ul> 
-                          <li>Quilmes 1lt</li>
-                          <li>Salta Rubia/Negra 1lt</li>
-                          <li>Artesanal: 
-                              <ol>
-                                  <li>Honey</li>
-                                  <li>IPA</li>
-                                  <li>Golden</li>
-                                  <li>Lager</li>    
-                              </ol>
-                          </li>
-                      </ul> 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>   <!-- cierra div col -->
-      </div> <!--  cierra div row -->
-    </main>
-  </section> <!-- cierra section container -->
-  
-  <!--aqui arranca el footer -->
-  <section class="container">
-    <footer class="footer">
-      <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
-    </footer>
+    </section> <!-- cierra section container -->
   </section>
+</main>  
+
+  <!--aqui arranca el footer -->
+  <footer class="footer">
+    <section class="container-fluid">
+        <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
+    </section>
+  </footer>
   <!--aqui termina el footer -->
   
   <!--link js bootstrap -->

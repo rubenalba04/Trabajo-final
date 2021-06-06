@@ -20,84 +20,80 @@
   <link rel="stylesheet" href="css/pruebacss.css">
 </head>
 
-<body>
-  <section class="container-fluid"><!-- inicio container de header -->
-    <header class="header_index">
-      <div class="container">
-          <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="bi bi-list"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav nav-fill w-100">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="nuestracarta.html">Nuestra Carta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cerveza.html">Cerveza</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-              </div>
-            </div>
-          </nav> 
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-2" id="mainNav">
+  <div class="container">
+      <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="nuestracarta.html">Nuestra Carta</a></li>
+              <li class="nav-item"><a class="nav-link" href="cerveza.html">Cerveza</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
       </div>
+  </div>
+</nav>
 
-      <div class="container">
-        <div class="row">
-          <a href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
-        </div>
+<body>
+
+<header class="header_index">
+  
+  <section class="container">
+    <div class="row">
+      <a href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
+    </div>
+  </section>
+  
+  <section class="container__sidebar"><!--contenedor sidebar -->
+      <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
+        <span><i class="bi bi-layout-text-sidebar"></i></span>
+      </button>
+    <div class="collapse" id="colapso__sidebar">
+      <div class="sidebar"> 
+        <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-house"></i>
+        </a>
+        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-geo-alt"></i>
+        </a>
+        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-facebook" ></i>
+        </a>
+        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
+          <i class="bi bi-instagram"></i> 
+        </a>
       </div>
-    
-      <section class="container__sidebar"><!--contenedor sidebar -->
-          <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
-            <span><i class="bi bi-layout-text-sidebar"></i></span>
-          </button>
-        <div class="collapse" id="colapso__sidebar">
-          <div class="sidebar"> 
-            <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-              <i class="bi bi-house"></i>
-            </a>
-            <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-              <i class="bi bi-whatsapp"></i>
-            </a>
-            <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-              <i class="bi bi-geo-alt"></i>
-            </a>
-            <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-              <i class="bi bi-facebook" ></i>
-            </a>
-            <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-              <i class="bi bi-instagram"></i> 
-            </a>
-          </div>
-        </div>
-      </section><!-- fin contenedor sidebar -->
-      
-      <div class="col-sm-8 col-md-10 col-lg-12 col-xl-12">
+    </div>
+  </section><!-- fin contenedor sidebar -->
+  
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-8 col-md-10 col-lg-12">
         <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
       </div>
-      
-      <div class="col-sm-8 col-md-10 col-lg-12 col-xl-12">
+    </div>
+    <div class=" align-items-end row justify-content-center">
+      <div class="col-sm-8 col-md-10 col-lg-12">
         <h2>Pizzeria - Cervecería</h2>
       </div>
+    </div>
+  </section>
       
-    </header> 
-  </section><!-- fin contenedor de header -->
+</header> <!-- fin contenedor de header -->
 
+<main class="main__index">
   <section class="container-fluid"><!-- inicio container de main -->
-    <main class="main__index">
-      <!--Section: Content-->
+      <!--Section: Contentido cards-->
       <section class="text-center">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4">
+        <div class="row justify-content-start">
+          <div class="col-lg-4 col-md-4 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./imagenes/index-images/salon_index.jpg" class="img-fluid" />
@@ -114,26 +110,39 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="./imagenes/index-images/comida_index.jpg" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">La mejor comida</h5>
-                <p class="card-text">
-                  Elaborada 100% de forma artesanal
-                </p>
-                <a href="nuestracarta.html" class="btn btn-dark">Ver</a>
+          
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolores velit obcaecati qui aut sequi repudiandae, maxime deserunt quia culpa quae itaque laudantium saepe blanditiis id esse natus, ducimus doloremque odio repellat! Autem, numquam. Quidem quis sapiente amet deserunt at libero distinctio aspernatur. Hic iste assumenda magni ad, illum sequi?</p>
+          </div>
+          
+        </div>
+        
+        <div class="row justify-content-end">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./imagenes/index-images/comida_index.jpg" class="img-fluid" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">La mejor comida</h5>
+                  <p class="card-text">
+                    Elaborada 100% de forma artesanal
+                  </p>
+                  <a href="nuestracarta.html" class="btn btn-dark">Ver</a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-6">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo suscipit, odit expedita ratione voluptatem soluta fugiat illum atque repellendus quis natus totam, rem commodi provident, nesciunt non earum perferendis qui accusantium reiciendis. Hic repellat distinctio eveniet tenetur id quia nulla quam? Eos delectus porro eveniet assumenda fugit quam, soluta minima.</p>
+            </div>
+            
+        </div>
+        
+        <div class="row justify-content-start">
+          <div class="col-lg-5 col-md-4 mb-4">
             <div class="card">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="./imagenes/index-images/birra_index.jpg" class="img-fluid" />
@@ -150,19 +159,24 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates dolorem repellat fuga enim maiores hic vitae rem reprehenderit! Quam laudantium animi, quidem tempore corrupti illum doloribus excepturi? Accusamus, qui labore. Quibusdam, ratione rerum accusamus nemo officiis, dolores veniam quidem expedita deserunt illum ad ut, excepturi architecto quos eos veritatis!</p>
+          </div>
+          
         </div>
+        
       </section>
       <!--Section: Content-->
-
-    </main>
   </section><!--se cierra contenedor del main-->
+</main>
+  
   
   <!--aqui arranca el footer -->
-  <section class="container-fluid">
-    <footer class="footer">
-      <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
-    </footer>
-  </section>
+<footer class="footer">
+    <section class="container-fluid">
+        <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
+    </section>
+</footer>
   <!--aqui termina el footer -->
   
   <!--link js bootstrap -->

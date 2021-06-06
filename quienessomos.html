@@ -20,39 +20,38 @@
   <link rel="stylesheet" href="css/pruebacss.css">
 </head>
 
-<body>
-  <section class="container"><!-- inicio contenedor de nav -->
-    <a class="navbar-brand" href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
-    <nav class="navbar navbar-expand-md">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="bi bi-list"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav nav-fill w-100">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nuestracarta.html">Nuestra Carta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cerveza.html">Cerveza</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-2" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes Somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="nuestracarta.html">Nuestra Carta</a></li>
+                <li class="nav-item"><a class="nav-link" href="cerveza.html">Cerveza</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
         </div>
-      </div>
-    </nav> 
-  </section> <!-- cierra container de nav -->
+    </div>
+  </nav>
+
+<body>
+
+<header class="header_nosotros">
+  
+  <section class="container">
+    <div class="row">
+      <a href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
+    </div>
+  </section>
   
   <section class="container__sidebar"><!--contenedor sidebar -->
-        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
+      <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
         <span><i class="bi bi-layout-text-sidebar"></i></span>
-        </button>
+      </button>
     <div class="collapse" id="colapso__sidebar">
       <div class="sidebar"> 
         <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
@@ -73,51 +72,47 @@
       </div>
     </div>
   </section><!-- fin contenedor sidebar -->
-    
-  <section class="container"><!-- inicio container de header -->
-    <header class="header">
-      <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-10 col-lg-12 col-xl-12">
-          <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
-        </div>
-      </div>
-    </header> 
-  </section><!-- fin contenedor de header -->
   
-  <section class="container"><!-- inicio clase row-->
-    <main class="main">
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <h2 class="main__titulo">Un Poco de Nuestra Historia</h2>
-        </div><!-- fin clase row-->
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-8 col-md-10 col-lg-12">
+        <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
+        <h2 class="main__titulo">Un Poco de Nuestra Historia</h2>
       </div>
+    </div>
+  </section>
       
-      <div class="row align-items-center justify-content-center">
-        <div class="col-sm-12 col-md-10 col-lg-6 col-xl-6">
-            <p class="main__parrafo">Nuestra historia comienza en un frio invierno de Julio del año 2011… 
-            Después de mucho pensar en que tipo de rubro emprenderíamos, 
-            nos decidimos por gastronomía y abrimos las puertas de nuetro 
-            pequeño local llamado; “Los Mellis Pizzas”. Como el nombre lo indica, primeramente 
-            nos centramos en la elaboración de Pizzas 100% caseras.
-            Día a día buscamos la manera de dar lo mejor a nuestros clientes, por ello, 
-            incorporamos otras comidas.
-            La idea gastronómica iba creciendo y con ella, nosotros también.  
-            En el noveno año, nos renovamos, y le presentamos al público “Don Enrique Beer And Food”
-            un local moderno, adaptado a los tiempos actuales pero sin perder nuestro compromiso 
-            con la calidad, los recursos naturales y con la responsabilidad social 
-            que ganamos a lo largo de los años.</p> 
-        </div> 
+</header> <!-- fin contenedor de header -->
+  
+
+<main class="main">
+  <section class="container">
+    <div class="row align-items-center justify-content-center"><!-- inicio clase row-->
+      <div class="col-sm-12 col-md-10 col-lg-6 col-xl-6">
+        <p class="main__parrafo">Nuestra historia comienza en un frio invierno de Julio del año 2011… 
+        Después de mucho pensar en que tipo de rubro emprenderíamos, 
+        nos decidimos por gastronomía y abrimos las puertas de nuetro 
+        pequeño local llamado; “Los Mellis Pizzas”. Como el nombre lo indica, primeramente 
+        nos centramos en la elaboración de Pizzas 100% caseras.
+        Día a día buscamos la manera de dar lo mejor a nuestros clientes, por ello, 
+        incorporamos otras comidas.
+        La idea gastronómica iba creciendo y con ella, nosotros también.  
+        En el noveno año, nos renovamos, y le presentamos al público “Don Enrique Beer And Food”
+        un local moderno, adaptado a los tiempos actuales pero sin perder nuestro compromiso 
+        con la calidad, los recursos naturales y con la responsabilidad social 
+        que ganamos a lo largo de los años.</p> 
+      </div> 
         
-        <div class="col-sm-5 col-md-6 col-lg-5 col-xl-5">
-          <div class="main__video">
-            <iframe src="https://www.youtube.com/embed/bezEcserpU0" allowfullscreen></iframe>
-          </div>
+      <div class="col-sm-5 col-md-6 col-lg-5 col-xl-5">
+        <div class="main__video">
+          <iframe src="https://www.youtube.com/embed/bezEcserpU0" allowfullscreen></iframe>
         </div>
+      </div>
     
-      </div> <!--se cierra div row-->
+    </div> <!--se cierra div row-->
       
       <div class="row justify-content-center align-content-center"><!-- se cierra la clase col del carrusel-->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-10">
           <div id="carrusel-nosotros" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carrusel-nosotros" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -156,15 +151,16 @@
           </div>
         </div> <!-- se cierra la clase col del carrusel-->
       </div><!-- se cierra la clase row del carrusel-->
-    </main>
   </section>
+</main>
+  
   
   <!--aqui arranca el footer -->
-  <section class="container">
-    <footer class="footer">
-      <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
-    </footer>
-  </section>
+  <footer class="footer">
+    <section class="container-fluid">
+        <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
+    </section>
+  </footer>
   <!--aqui termina el footer -->
   
   <!--link js bootstrap -->

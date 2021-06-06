@@ -1,7 +1,9 @@
 *{
 margin: 0;
 padding: 0;
+box-sizing: border-box
 }
+
 @import"variables";
 @import"mixin";
 // Inicio estilos sidebar 
@@ -12,26 +14,83 @@ padding: 0;
 @import"navbar.scss";
 // fin estilos navbar 
 
+@import "catalogo.scss";
+
 /*Inicio background*/
 
 .header_index{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/index-images/fondo.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-index.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: scroll;
+    background-position: center center;
     background-size: cover;
-    height: 100vh;
+}
+
+.header_nosotros{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header_carta{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-carta.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header_cerveza{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-cerveza.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header_contacto{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 
 body{
-    background: $rojo;
+    width: 100%;
+    background: none;
 }
 
 footer{
     background: $gris;
+    width: 100%;
     border: solid 2px $negro;
 }
 
 main{
+    width: 100%;
     background: $oro;
     border: solid 2px $negro;
 }
@@ -175,7 +234,7 @@ font-size: 45px;
 }
 
 #carrusel-cerveza{
-    width: 45%;
+    width: 70%;
     .carousel-caption{
         p{
         font-size:25px;

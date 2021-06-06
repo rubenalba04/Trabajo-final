@@ -1,0 +1,97 @@
+@import"variables";
+@import"mixin";
+
+#catalogo .catalogo-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#catalogo .catalogo-item .catalogo-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#catalogo .catalogo-item .catalogo-link .catalogo-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:$gristransparente;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+  
+  #catalogo .catalogo-item .catalogo-link .catalogo-hover .catalogo-hover-content {
+    font-size: 1.25rem;
+    color: white;
+  }
+  #catalogo .catalogo-item .catalogo-link:hover .catalogo-hover {
+    opacity: 1;
+  }
+  #catalogo .catalogo-item .catalogo-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: $rojo;
+  }
+  #catalogo .catalogo-item .catalogo-caption .catalogo-caption-heading {
+    font-size: 1.5rem;
+    font-family: $roboto;
+    color: $blanco;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  #catalogo .catalogo-item .catalogo-caption .catalogo-caption-subheading {
+    font-style: italic;
+    font-family: $roboto;  }
+  
+  .catalogo-modal .modal-dialog {
+    margin: auto;
+    max-width: 50vw;
+    max-height: 20vh;
+    display: block;
+    
+  }
+  .catalogo-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background: $rojo;
+  }
+  .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .catalogo-modal .modal-content p.item-intro {
+    margin-bottom: 2rem;
+    font-family: $roboto;
+  }
+  .catalogo-modal .modal-content p {
+    margin-bottom: 2rem;
+  }
+  .catalogo-modal .modal-content ul.list-inline {
+    margin-bottom: 2rem;
+    li,ol{
+      @include parrafo
+    }
+
+  }
+  .catalogo-modal .modal-content img {
+    margin-bottom: 2rem;
+  }
+  .catalogo-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.catalogo-modal .close-modal:hover {
+    opacity: 0.3;
+}

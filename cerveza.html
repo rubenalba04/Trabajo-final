@@ -20,81 +20,74 @@
   <link rel="stylesheet" href="css/pruebacss.css">
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-2" id="mainNav">
+  <div class="container">
+      <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="nuestracarta.html">Nuestra Carta</a></li>
+              <li class="nav-item"><a class="nav-link" href="cerveza.html">Cerveza</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
 <body>
 
-  <section class="container"><!-- inicio contenedor de nav -->
-    <a class="navbar-brand" href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
-    <nav class="navbar navbar-expand-md">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="bi bi-list"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav nav-fill w-100">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nuestracarta.html">Nuestra Carta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cerveza.html">Cerveza</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
-        </div>
-      </div>
-    </nav> 
-  </section> <!-- cierra container de nav -->
-  
-  <section class="container__sidebar"><!--contenedor sidebar -->
-        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
-        <span><i class="bi bi-layout-text-sidebar"></i></span>
-        </button>
-    <div class="collapse" id="colapso__sidebar">
-      <div class="sidebar"> 
-        <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-house"></i>
-        </a>
-        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-whatsapp"></i>
-        </a>
-        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-geo-alt"></i>
-        </a>
-        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-facebook" ></i>
-        </a>
-        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-instagram"></i> 
-        </a>
-      </div>
-    </div>
-  </section><!-- fin contenedor sidebar -->
-    
-  <section class="container"><!-- inicio container de header -->
-    <header class="header">
-      <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-10 col-lg-12 col-xl-12">
-          <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
-        </div>
-      </div>
-    </header> 
-  </section><!-- fin contenedor de header -->
+<header class="header_cerveza">
 
-  <section class="container">
-    <main class="main">
+<section class="container">
+  <div class="row">
+    <a href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
+  </div>
+</section>
+
+<section class="container__sidebar"><!--contenedor sidebar -->
+    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
+      <span><i class="bi bi-layout-text-sidebar"></i></span>
+    </button>
+  <div class="collapse" id="colapso__sidebar">
+    <div class="sidebar"> 
+      <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-house"></i>
+      </a>
+      <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-geo-alt"></i>
+      </a>
+      <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-facebook" ></i>
+      </a>
+      <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
+        <i class="bi bi-instagram"></i> 
+      </a>
+    </div>
+  </div>
+</section><!-- fin contenedor sidebar -->
+
+<section class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 col-md-10 col-lg-12">
+      <h1 class="header__titulo">DON ENRIQUE BEER & FOOD</h1>
+      <h2 class="main__titulo">Nuestras Cervezas</h2>
+    </div>
+  </div>
+</section>
+    
+</header> <!-- fin contenedor de header -->
+
+  <main class="main">
+    <section class="container">
       <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-10 col-lg-12 col-xl-12">
-          <h2 class="main__titulo">Nuestras Cervezas</h2>
-        </div>
-      </div>
-      
-      <div class="row justify-content-center">
-        <div class="col-12">
+        <div class="col-lg-12">
           <div id="carrusel-cerveza" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -233,15 +226,15 @@
           </div>
         </div>  <!--se cierra la clase col -->
       </div> <!--se cierra la clase row -->
-    </main>
   </section> <!--se cierra la clase container -->
+  </main>
   
   <!--aqui arranca el footer -->
-  <section class="container">
-    <footer class="footer">
+  <footer class="footer">
+    <section class="container-fluid">
       <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
-    </footer>
-  </section>
+    </section>
+  </footer>
   <!--aqui termina el footer -->
   
   <!--link js bootstrap -->
