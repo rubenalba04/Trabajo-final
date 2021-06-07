@@ -1,5 +1,15 @@
 @import"variables";
 
+@mixin fondos {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
 @mixin sombras {
     box-shadow: 20px 5px 10px $gris; 
 }
@@ -28,8 +38,9 @@
     color: #fcefef;
     letter-spacing: 2px;
     word-spacing: 2px;
-    padding: 10px 10px;
-    margin: 10px 10px;
+    padding: auto;
+    margin: auto;
+    font-size: 1rem;
 }
 
 @mixin titulos{
@@ -41,8 +52,8 @@
     letter-spacing: 2px;
     word-spacing: 5px;
     line-height: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     }
 
 @mixin imagenes {

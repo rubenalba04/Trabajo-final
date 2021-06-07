@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
               <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
               <li class="nav-item"><a class="nav-link" href="nuestracarta.html">Nuestra Carta</a></li>
               <li class="nav-item"><a class="nav-link" href="cerveza.html">Cerveza</a></li>
               <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
@@ -85,7 +85,7 @@
 </header> <!-- fin contenedor de header -->
 
   <main class="main">
-    <section class="container">
+    <section class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div id="carrusel-cerveza" class="carousel slide" data-bs-ride="carousel">
@@ -149,85 +149,58 @@
               Sabiendo las propiedades de la cerveza, a esta relación la denominamos maridaje. 
               En el caso de la cerveza, existen una serie de maridajes más o menos efectivos para cada estilo, 
               siempre teniendo en cuenta los beneficios de la cerveza.
-              A continuación te recomendamos los mejores maridajes para acompañar nuestras cervezas:</p>
+              </p>
           </div>
         </div> <!--se cierra la clase col -->
+      </div>
 
-        <div class="col-8 main__acordion-cerveza"> <!--se abre la clase col -->
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  GOLDEN
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <strong>
-                    <ul>
-                      <li>Hamburguesa Don Roque</li>
-                      <li>Hamburguesa Don Enrique</li>
-                    </ul> 
-                  </strong> 
-                </div>
+        <!-- maridajes-->
+              <div class="text-center">
+                  <h3 class="section-subheading text-muted">Platos recomendados para acompañar nuestras birras</h3>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  HONEY
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <strong>
-                    <ul>
-                      <li>Papas gratinadas con queso tybo</li>
-                      <li>Papas gratinadas con queso cheddar</li>
-                    </ul> 
-                  </strong>
+              
+            <div class="row justify-content-center">
+                  <div class="col-lg-4">
+                      <div class="birra-platos">
+                          <img class="mx-auto rounded-circle" src="./imagenes/carrusel-cerveza/birra-golden.jpg" alt="..." />
+                          <h4>GOLDEN</h4>
+                          <p>Hamburguesa Don Roque</p>
+                          <p>Hamburguesa Don Enrique</p>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4">
+                    <div class="birra-platos">
+                        <img class="mx-auto rounded-circle" src="./imagenes/carrusel-cerveza/birra-honey.jpg" alt="..." />
+                        <h4>HONEY</h4>
+                        <p>Papas gratinadas con queso tybo</p>
+                        <p>Papas gratinadas con queso cheddar</p>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  IPA
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <strong>
-                    <ul>
-                      <li>Papas fritas</li>
-                      <li>Pizza especial de jamón cocido y morrones</li>
-                    </ul>
-                  </strong> 
-                </div>
+              
+            <div class="row justify-content-center">
+                  <div class="col-lg-4">
+                    <div class="birra-platos">
+                        <img class="mx-auto rounded-circle" src="./imagenes/carrusel-cerveza/birra-ipa.jpg" alt="..." />
+                        <h4>IPA-ALE</h4>
+                        <p>Papas Fritas</p>
+                        <p>Hamburguesa Don Enrique</p>
+                    </div>
+                  </div>
+              <div class="col-lg-4">
+                  <div class="birra-platos">
+                      <img class="mx-auto rounded-circle" src="./imagenes/carrusel-cerveza/birra-irish.jpg" alt="..." />
+                      <h4>IRISH</h4>
+                      <p>Sandwich de Lomo especial</p>
+                      <p>Matambrito</p>
+                  </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                  IRISH RED
-                </button>
-              </h2>
-              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <strong>
-                    <ul>
-                      <li>Sandwich de Lomo especial</li>
-                      <li>Matambrito</li>
-                    </ul>
-                  </strong> 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  <!--se cierra la clase col -->
-      </div> <!--se cierra la clase row -->
-  </section> <!--se cierra la clase container -->
-  </main>
+
+            </div>             
+    </section>
+
+</main>
   
   <!--aqui arranca el footer -->
   <footer class="footer">
