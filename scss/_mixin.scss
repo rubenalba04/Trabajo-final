@@ -1,5 +1,18 @@
 @import"variables";
 
+@mixin bi {
+    color: #FCEFEF;
+	padding: .5rem;
+	display: flex;
+	transition: all .5s;
+}
+
+@mixin bihover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
 @mixin fondos {
     padding-top: 6rem;
     padding-bottom: 6rem;

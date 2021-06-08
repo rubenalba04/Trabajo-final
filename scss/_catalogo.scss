@@ -18,11 +18,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background:$gristransparente;
+    background:$verdetransparente;
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity ease-in-out 0.25s;
+    transition: opacity ease-in-out 0.50s;
 }
   
   #catalogo .catalogo-item .catalogo-link .catalogo-hover .catalogo-hover-content {
@@ -30,7 +30,7 @@
     color: white;
   }
   #catalogo .catalogo-item .catalogo-link:hover .catalogo-hover {
-    opacity: 1;
+    opacity: 10;
   }
   #catalogo .catalogo-item .catalogo-caption {
     padding: 1.5rem;

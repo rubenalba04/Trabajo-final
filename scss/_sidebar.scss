@@ -1,5 +1,6 @@
 @import"variables";
 // Inicio estilos sidebar 
+
 .container__sidebar>{
 	button{
 	position: fixed;
@@ -13,7 +14,6 @@
 }
 }
 
-
 .sidebar {
 	position: fixed;
 	right: 0;
@@ -25,30 +25,34 @@
 	z-index: 100;
 }
 
-.bi {
-    color: #FCEFEF;
-	padding: .5rem;
-	display: flex;
-	transition: all .5s;
+.bi-layout-text-sidebar{
+	@include bi;
+	border: $blanco;
 }
 
 .bi-whatsapp{
     background: #4dc247;
+    @include bi;
 }
+
 .bi-facebook {
 	background: #2E406E;
+	@include bi;
 }
 
 .bi-geo-alt {
 	background: $gris;
+	@include bi;
 }
 
 .bi-house {
-	background: $oro;
+	background: $rojo;
+	@include bi;
 }
 
 .bi-instagram {
-	background: #FD1D1D ;
+	background: #FD1D1D;
+	@include bi;
 }
 
 .bi:first-child {
@@ -59,10 +63,23 @@
 	border-radius: 0 0 0 1rem;
 }
 
-.bi:hover {
-	padding-right: 3rem;
-	border-radius: 1rem 0 0 1rem;
-	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+.bi-facebook:hover{
+	@include bihover;
+	}
+.bi-geo-alt:hover{
+	@include bihover;
+	}
+.bi-house:hover{
+	@include bihover;
+	}
+.bi-instagram:hover{
+	@include bihover;
+	}
+.bi-whatsapp:hover{
+	@include bihover;
+	}
+.bi-layout-text-sidebar:hover{
+	@include bihover;
 }
 
 // fin estilos sidebar 

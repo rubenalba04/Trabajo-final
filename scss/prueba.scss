@@ -44,20 +44,14 @@ box-sizing: border-box
 
 body{
     width: 100%;
-    background: none;
+    background: $rojo;
 }
 
 footer{
     background: $gris;
-    width: 100%;
     border: solid 2px $negro;
 }
 
-main{
-    width: 100%;
-    background: $rojo;
-    border: solid 2px $negro;
-}
 /*fin background*/
 
 /*Inicio Estilos titulos y parrafos*/
@@ -107,7 +101,7 @@ font-size: 3rem;
 .card{
     div{
         img{
-            transition: background-color 2s linear;
+            transition: 2s linear;
         }
     }
 }  
@@ -115,7 +109,7 @@ font-size: 3rem;
 .card{
     div{
         img:hover{
-            background-color: $blanco;
+            width: 120%;
         }
     }
 }  
@@ -172,6 +166,9 @@ font-size: 3rem;
 
 
 /*Inicio estilos nuestra carta*/
+.bi-plus-lg{
+    font-size: 2rem;
+}
 
 @import "catalogo.scss";
 
@@ -180,7 +177,7 @@ font-size: 3rem;
 
 /*Inicio estilos Cerveza*/
 #carrusel-cerveza{
-    width: 70%;
+    width: 50%;
     .carousel-caption{
         p{
         font-size:25px;
