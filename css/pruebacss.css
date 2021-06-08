@@ -91,47 +91,52 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 90vh; }
 
 .header_nosotros {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-nosotros.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-nosotros.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 90vh; }
 
 .header_carta {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-carta.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-carta.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 90vh; }
 
 .header_cerveza {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-cerveza.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-cerveza.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 90vh; }
 
 .header_contacto {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-contacto.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-contacto.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 90vh; }
 
 body {
   width: 100%;
@@ -144,7 +149,7 @@ footer {
 
 main {
   width: 100%;
-  background: #D58936;
+  background: #852525;
   border: solid 2px #101112; }
 
 /*fin background*/
@@ -177,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px; }
 
 .index__titulo {
-  font-size: 2,5rem;
+  font-size: 2.8rem;
   padding: max-content;
   margin: max-content;
   transition: font-size 3s ease-in; }
@@ -194,44 +199,35 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   display: block;
   margin: auto;
-  width: 10%; }
+  width: 15%; }
 
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
-  max-width: 1920px; }
+.card div img {
+  transition: background-color 2s linear; }
 
-#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
-  position: relative;
-  display: block; }
+.card div img:hover {
+  background-color: #fcefef; }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(244, 98, 58, 0.9);
-  transition: opacity 0.25s ease;
-  text-align: center; }
+.card {
+  background: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 20px 5px 10px black;
+  border: 5px solid #852525; }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase; }
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem; }
+.card-title {
+  font-size: 30px;
+  text-shadow: 3px 3px 4px #101112; }
 
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1; }
+.card-text {
+  font-size: 20px;
+  text-shadow: 3px 3px 4px #101112; }
 
 /*Fin estilos Index*/
 /*Inicio estilos Nosotros*/
@@ -284,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #21252960;
+  background: #21252980;
   align-items: center;
   justify-content: center;
   opacity: 0;
