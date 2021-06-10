@@ -18,7 +18,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background:$verdetransparente;
+    background:$orosuave;
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -50,14 +50,12 @@
   
   .catalogo-modal .modal-dialog {
     margin: auto;
-    max-width: 50vw;
-    max-height: 20vh;
     display: block;
     
   }
   .catalogo-modal .modal-content {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     background: $rojo;
   }

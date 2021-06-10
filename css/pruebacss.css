@@ -24,7 +24,7 @@
   z-index: 100; }
 
 .bi-layout-text-sidebar {
-  color: #FCEFEF;
+  color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s;
@@ -32,35 +32,35 @@
 
 .bi-whatsapp {
   background: #4dc247;
-  color: #FCEFEF;
+  color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
 .bi-facebook {
   background: #2E406E;
-  color: #FCEFEF;
+  color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
 .bi-geo-alt {
   background: #212529;
-  color: #FCEFEF;
+  color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
 .bi-house {
   background: #bb4430;
-  color: #FCEFEF;
+  color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
 .bi-instagram {
   background: #FD1D1D;
-  color: #FCEFEF;
+  color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
@@ -130,7 +130,7 @@
 
 /*Inicio background*/
 .header_index {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-index.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -141,7 +141,7 @@
   height: 90vh; }
 
 .header_nosotros {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-nosotros.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -152,7 +152,7 @@
   height: 90vh; }
 
 .header_carta {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-carta.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -163,7 +163,7 @@
   height: 90vh; }
 
 .header_cerveza {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-cerveza.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-cerveza.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -174,7 +174,7 @@
   height: 90vh; }
 
 .header_contacto {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/fondo-contacto.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-contacto.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -197,34 +197,25 @@ footer {
 p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  color: #fcefef;
+  color: #FFFFFF;
   letter-spacing: 2px;
   word-spacing: 2px;
-  padding: auto;
-  margin: auto;
-  font-size: 1rem; }
+  padding: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112; }
 
 .btn {
   display: block;
   margin: auto;
   padding: auto; }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #FCEFEF;
-  text-align: center;
-  font-weight: bolder;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 1px 1px 2px #101112;
-  letter-spacing: 2px;
-  word-spacing: 5px;
-  line-height: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
 .index__titulo {
   font-size: 2.8rem;
-  padding: max-content;
-  margin: max-content;
   transition: font-size 3s ease-in; }
 
 .index__titulo:hover {
@@ -237,9 +228,9 @@ h1, h2, h3, h4, h5, h6 {
 /*Fin Estilos titulos y parrafos*/
 /*Inicio Estilos generales*/
 .logo {
-  display: block;
+  display: flex;
   margin: auto;
-  width: 15%; }
+  width: 180px; }
 
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
@@ -273,8 +264,15 @@ h1, h2, h3, h4, h5, h6 {
 /*Inicio estilos Nosotros*/
 .main__parrafo {
   word-spacing: 5px;
-  margin: 25px;
   text-shadow: 2px 2px 3px #101112; }
+
+@media (max-width: 768px) {
+  .main__parrafo {
+    font-size: 1rem; } }
+
+@media (max-width: 576px) {
+  .main__parrafo {
+    font-size: 0.8rem; } }
 
 .main__video {
   position: relative;
@@ -293,41 +291,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   height: 100%; }
-
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
-  max-width: 1920px; }
-
-#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
-  position: relative;
-  display: block; }
-
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(244, 98, 58, 0.9);
-  transition: opacity 0.25s ease;
-  text-align: center; }
-
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Roboto Slab", serif;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase; }
-
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem; }
-
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1; }
 
 /*Fin de Estilos Nosotros*/
 /*Inicio estilos nuestra carta*/
@@ -349,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #01731290;
+  background: #F58E1850;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -380,13 +343,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .catalogo-modal .modal-dialog {
   margin: auto;
-  max-width: 50vw;
-  max-height: 20vh;
   display: block; }
 
 .catalogo-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
   background: #bb4430; }
 
@@ -406,12 +367,10 @@ h1, h2, h3, h4, h5, h6 {
   .catalogo-modal .modal-content ul.list-inline li, .catalogo-modal .modal-content ul.list-inline ol {
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    color: #fcefef;
+    color: #FFFFFF;
     letter-spacing: 2px;
     word-spacing: 2px;
-    padding: auto;
-    margin: auto;
-    font-size: 1rem; }
+    padding: auto; }
 
 .catalogo-modal .modal-content img {
   margin-bottom: 2rem; }
@@ -470,12 +429,10 @@ th, td {
 label {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  color: #fcefef;
+  color: #FFFFFF;
   letter-spacing: 2px;
   word-spacing: 2px;
-  padding: auto;
-  margin: auto;
-  font-size: 1rem; }
+  padding: auto; }
 
 .main__mapa {
   position: relative;

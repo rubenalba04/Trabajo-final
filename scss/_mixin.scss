@@ -1,7 +1,7 @@
 @import"variables";
 
 @mixin bi {
-    color: #FCEFEF;
+    color: $blanco;
 	padding: .5rem;
 	display: flex;
 	transition: all .5s;
@@ -49,25 +49,18 @@
 @mixin parrafo{
     font-family: $opensans;
     text-align: center;
-    color: #fcefef;
+    color: $blanco;
     letter-spacing: 2px;
     word-spacing: 2px;
     padding: auto;
-    margin: auto;
-    font-size: 1rem;
 }
 
 @mixin titulos{
-    color: #FCEFEF;
+    color: $blanco;
     text-align: center;
     font-weight: bolder;
     font-family: 'Roboto Slab', serif;
     text-shadow: 1px 1px 2px $negro;
-    letter-spacing: 2px;
-    word-spacing: 5px;
-    line-height: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     }
 
 @mixin imagenes {

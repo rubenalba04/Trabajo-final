@@ -17,28 +17,28 @@ box-sizing: border-box
 /*Inicio background*/
 
 .header_index{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-index.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
     @include fondos;
 }
 
 .header_nosotros{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-nosotros.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
     @include fondos;
 }
 
 .header_carta{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-carta.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
     @include fondos;
 }
 
 .header_cerveza{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-cerveza.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
     @include fondos;
 
 }
 
 .header_contacto{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/fondos/fondo-contacto.jpg);
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-contacto.jpg);
     @include fondos;
 }
 
@@ -60,18 +60,16 @@ p{
     @include parrafo;
 }
 
+h1,h2,h3,h4,h5,h6{
+@include titulos;
+}
+
 .btn{
     @include boton;
 }
 
-h1,h2,h3,h4,h5,h6{
-    @include titulos;
-}
-
 .index__titulo {
 font-size: 2.8rem;
-padding:max-content;
-margin: max-content;
 transition: font-size 3s ease-in;
 }
 
@@ -90,9 +88,9 @@ font-size: 3rem;
 /*Inicio Estilos generales*/
 
 .logo{
-    display: block;
+    display:flex;
     margin: auto;
-    width: 15%;
+    width: 180px;
 }
 /*Fin Estilos Generales*/
 
@@ -144,9 +142,17 @@ font-size: 3rem;
 /*Inicio estilos Nosotros*/
 .main__parrafo{
     word-spacing: 5px;
-    margin: 25px;
     text-shadow: 2px 2px 3px $negro;
 }
+
+@media (max-width: 768px) {
+    .main__parrafo{
+    font-size: 1rem;}
+    }
+@media (max-width: 576px) {
+    .main__parrafo{
+    font-size: 0.8rem;}
+    }
 
 .main__video {
     @include iframe-contenedor;
@@ -158,41 +164,6 @@ font-size: 3rem;
     @include responsive-iframe;
 }
 
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
-    max-width: 1920px;
-  }
-  #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
-    position: relative;
-    display: block;
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    background: rgba(244, 98, 58, 0.9);
-    transition: opacity 0.25s ease;
-    text-align: center;
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-    font-family: $roboto;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-    font-size: 1.2rem;
-  }
-  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-  }
 /*Fin de Estilos Nosotros*/
 
 
