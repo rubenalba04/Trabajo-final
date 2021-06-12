@@ -30,55 +30,55 @@
 	border: $blanco;
 }
 
-.bi-whatsapp{
+div .sidebar .bi-whatsapp{
     background: #4dc247;
     @include bi;
 }
 
-.bi-facebook {
+div .sidebar .bi-facebook {
 	background: #2E406E;
 	@include bi;
 }
 
-.bi-geo-alt {
+div .sidebar .bi-geo-alt {
 	background: $gris;
 	@include bi;
 }
 
-.bi-house {
+div .sidebar .bi-house {
 	background: $rojo;
 	@include bi;
 }
 
-.bi-instagram {
+div .sidebar .bi-instagram {
 	background: #FD1D1D;
 	@include bi;
 }
 
-.bi:first-child {
+div .sidebar .bi:first-child {
 	border-radius: 1rem 0 0 0;
 }
 
-.bi:last-child {
+div .sidebar .bi:last-child {
 	border-radius: 0 0 0 1rem;
 }
 
-.bi-facebook:hover{
+div .sidebar .bi-facebook:hover{
 	@include bihover;
 	}
-.bi-geo-alt:hover{
+div .sidebar .bi-geo-alt:hover{
 	@include bihover;
 	}
-.bi-house:hover{
+div .sidebar .bi-house:hover{
 	@include bihover;
 	}
-.bi-instagram:hover{
+div .sidebar .bi-instagram:hover{
 	@include bihover;
 	}
-.bi-whatsapp:hover{
+div .sidebar .bi-whatsapp:hover{
 	@include bihover;
 	}
-.bi-layout-text-sidebar:hover{
+div .sidebar .bi-layout-text-sidebar:hover{
 	@include bihover;
 }
 

@@ -87,6 +87,78 @@
   100% {
     transform: translateX(0%); } }
 
+@keyframes banner {
+  0% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  25% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  26% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  50% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  51% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  75% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  76% {
+    background-image: url("../assets/img/banner-4.jpg"); }
+  100% {
+    background-image: url("../assets/img/banner-4.jpg"); } }
+
 .container__sidebar > button {
   position: fixed;
   right: 0;
@@ -114,73 +186,73 @@
   transition: all .5s;
   border: #FFFFFF; }
 
-.bi-whatsapp {
+div .sidebar .bi-whatsapp {
   background: #4dc247;
   color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
-.bi-facebook {
+div .sidebar .bi-facebook {
   background: #2E406E;
   color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
-.bi-geo-alt {
+div .sidebar .bi-geo-alt {
   background: #212529;
   color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
-.bi-house {
+div .sidebar .bi-house {
   background: #bb4430;
   color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
-.bi-instagram {
+div .sidebar .bi-instagram {
   background: #FD1D1D;
   color: #FFFFFF;
   padding: .5rem;
   display: flex;
   transition: all .5s; }
 
-.bi:first-child {
+div .sidebar .bi:first-child {
   border-radius: 1rem 0 0 0; }
 
-.bi:last-child {
+div .sidebar .bi:last-child {
   border-radius: 0 0 0 1rem; }
 
-.bi-facebook:hover {
+div .sidebar .bi-facebook:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
-.bi-geo-alt:hover {
+div .sidebar .bi-geo-alt:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
-.bi-house:hover {
+div .sidebar .bi-house:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
-.bi-instagram:hover {
+div .sidebar .bi-instagram:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
-.bi-whatsapp:hover {
+div .sidebar .bi-whatsapp:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
-.bi-layout-text-sidebar:hover {
+div .sidebar .bi-layout-text-sidebar:hover {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
@@ -269,6 +341,78 @@
   100% {
     transform: translateX(0%); } }
 
+@keyframes banner {
+  0% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  25% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  26% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  50% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  51% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  75% {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+  76% {
+    background-image: url("../assets/img/banner-4.jpg"); }
+  100% {
+    background-image: url("../assets/img/banner-4.jpg"); } }
+
 .navbar {
   background: none;
   font-family: "Roboto Slab", serif;
@@ -302,7 +446,9 @@
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%;
+  animation: banner 24s infinite linear; }
 
 .header_nosotros {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
@@ -313,7 +459,8 @@
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 .header_carta {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
@@ -324,7 +471,8 @@
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 .header_cerveza {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-cerveza.jpg);
@@ -335,7 +483,8 @@
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 .header_contacto {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-contacto.jpg);
@@ -346,7 +495,8 @@
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
 
 body {
   background: #6d342c;
@@ -596,8 +746,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Fin Estilos Cerveza*/
 /*Inicio Estilos contacto*/
-th, td {
-  color: #FFFFFF; }
+p a {
+  text-decoration: none;
+  padding: 0,5em; }
+  p a .bi-whatsapp {
+    font-size: 1.8em;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #101112; }
+  p a .bi-facebook {
+    font-size: 1.8em;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #101112; }
+  p a .bi-instagram {
+    font-size: 1.8em;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #101112; }
 
 .form-group > .btn {
   text-align: justify;

@@ -43,17 +43,18 @@
 
 <section class="container">
   <div class="row my-4">
-    <a href="/index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
+    <a href="index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
   </div>
 </section>
 
 <section class="container__sidebar"><!--contenedor sidebar -->
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#colapso__sidebar" aria-expanded="false" aria-controls="collapseExample">
-      <span><i class="bi bi-layout-text-sidebar"></i></span>
+    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <span><i class="bi bi-layout-text-sidebar"></i></span>
     </button>
-  <div class="collapse" id="colapso__sidebar">
+
+  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">       
     <div class="sidebar"> 
-      <a href="/index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
+      <a href="index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
         <i class="bi bi-house"></i>
       </a>
       <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">

@@ -1,97 +1,94 @@
+@import"variables";
+@import"mixin";
+
 @keyframes derecha-izquierda{
     from {
-        margin-left: 100%;
-        width: 300%
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
+    margin-left: 100%;
+    width: 300%
     }
-
+    
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+    }
+    
 @keyframes izquierda-derecha{
     from {
-        margin-left: 0%;
-        width: 100%;
-      }
-    
-      to {
-        margin-left: 100%;
-        width: 300%
-      }
+    margin-left: 0%;
+    width: 100%;
     }
-
-
+    
+    to {
+    margin-left: 100%;
+    width: 300%
+    }
+    }
+    
+    
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
     100% { transform: scale(1); } 
-}
-// Propiedades pulse
-// -webkit-animation-duration: 10s;
-// animation-duration: 10s;
-// -webkit-animation-fill-mode: both;
-// animation-fill-mode: both;
-
- 
- @keyframes rollIn {
+    }
+    
+@keyframes rollIn {
     0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
     100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
- } 
- 
- @keyframes bounceInRight {
+    } 
+    
+@keyframes bounceInRight {
     0% {
-       opacity: 0;
-       transform: translateX(2000px);
+    opacity: 0;
+    transform: translateX(2000px);
     }
     60% {
-       opacity: 1;
-       transform: translateX(-30px);
+    opacity: 1;
+    transform: translateX(-30px);
     }
     80% {
-       transform: translateX(10px);
+    transform: translateX(10px);
     }
     100% {
-       transform: translateX(0);
+    transform: translateX(0);
     }
- } 
-
+    } 
+    
 @keyframes bounceInLeft {
     0% {
-       opacity: 0;
-       transform: translateX(-2000px);
+    opacity: 0;
+    transform: translateX(-2000px);
     }
     60% {
-       opacity: 1;
-       transform: translateX(30px);
+    opacity: 1;
+    transform: translateX(30px);
     }
     80% {
-       transform: translateX(-10px);
+    transform: translateX(-10px);
     }
     100% {
-       transform: translateX(0);
+    transform: translateX(0);
     }
- } 
- 
- @keyframes bounceIn {
+    } 
+    
+@keyframes bounceIn {
     0% { 
-       opacity: 0; 
-       transform: scale(.3);
+    opacity: 0; 
+    transform: scale(.3);
     }
     50% { 
-       opacity: 1;
-       transform: scale(1.05);
+    opacity: 1;
+    transform: scale(1.05);
     }
     70% {
-       transform: scale(.9);
+    transform: scale(.9);
     }
     100% {
-       transform: scale(1);
+    transform: scale(1);
     }
- } 
- 
- @keyframes wobble {
+    } 
+    
+@keyframes wobble {
     0% { transform: translateX(0%); } 
     15% { transform: translateX(-25%) rotate(-5deg); } 
     30% { transform: translateX(20%) rotate(3deg); } 
@@ -99,4 +96,45 @@
     60% { transform: translateX(10%) rotate(2deg); }
     75% { transform: translateX(-5%) rotate(-1deg); }
     100% { transform: translateX(0%); } 
- } 
+    } 
+    
+@keyframes banner{
+	0%{
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
+        @include fondos;
+        
+	}
+	25%{
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
+        @include fondos;
+	}
+
+
+	26%{
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
+        @include fondos;
+	}
+	50%{
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
+        @include fondos;
+	}
+
+
+	51%{
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
+        @include fondos;
+	}
+	75%{
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
+        @include fondos;	
+	}
+	
+
+	76%{
+		background-image: url('../assets/img/banner-4.jpg');
+	}
+	100%{
+		background-image: url('../assets/img/banner-4.jpg');
+	}
+
+}

@@ -21,6 +21,7 @@ box-sizing: border-box
 .header_index{
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
     @include fondos;
+    animation: banner 24s infinite linear;
 }
 
 .header_nosotros{
@@ -245,11 +246,33 @@ font-size: 3rem;
 /*Fin Estilos Cerveza*/
 
 /*Inicio Estilos contacto*/
-
-th,td{
-    color:$blanco;
-    
+p{
+    a {
+    text-decoration: none;
+    padding: 0,5em;
+        .bi-whatsapp{
+        font-size: 1.8em;
+        color:$blanco;
+        text-shadow:1px 1px 1px $negro ;
+        }
+        
+        .bi-facebook {
+        font-size: 1.8em;
+        color:$blanco;
+        text-shadow:1px 1px 1px $negro ;
+        }
+        
+        .bi-instagram {
+        font-size: 1.8em;
+        color:$blanco;
+        text-shadow:1px 1px 1px $negro ;
+        }
+    }
 }
+
+
+
+
 .form-group>.btn{
     text-align: justify;
     display: inline-block;
