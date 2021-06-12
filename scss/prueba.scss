@@ -6,6 +6,7 @@ box-sizing: border-box
 
 @import"variables";
 @import"mixin";
+@import"animaciones";
 
 // Inicio estilos sidebar 
 @import"sidebar.scss";
@@ -16,23 +17,24 @@ box-sizing: border-box
 
 /*Inicio background*/
 
+
 .header_index{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
     @include fondos;
 }
 
 .header_nosotros{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
     @include fondos;
 }
 
 .header_carta{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
     @include fondos;
 }
 
 .header_cerveza{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
     @include fondos;
 
 }
@@ -43,8 +45,13 @@ box-sizing: border-box
 }
 
 body{
-    width: 100%;
-    background: $rojo;
+    background: hsla(7, 42%, 30%, 1);
+
+background: linear-gradient(90deg, hsla(7, 42%, 30%, 1) 0%, hsla(9, 59%, 46%, 1) 50%, hsla(9, 58%, 45%, 1) 50%, hsla(7, 42%, 30%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(7, 42%, 30%, 1) 0%, hsla(9, 59%, 46%, 1) 50%, hsla(9, 58%, 45%, 1) 50%, hsla(7, 42%, 30%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(7, 42%, 30%, 1) 0%, hsla(9, 59%, 46%, 1) 50%, hsla(9, 58%, 45%, 1) 50%, hsla(7, 42%, 30%, 1) 100%);
 }
 
 footer{
@@ -62,20 +69,40 @@ p{
 
 h1,h2,h3,h4,h5,h6{
 @include titulos;
-}
-
-.btn{
-    @include boton;
+animation-name: bounceInLeft;
+animation-duration: 3s;
 }
 
 .index__titulo {
 font-size: 2.8rem;
+margin: 1rem;
 transition: font-size 3s ease-in;
+animation-delay:3s;
+animation-name: pulse;
 }
 
 .index__titulo:hover{
 font-size: 3rem;   
 }
+
+.index__titulo-2{
+    margin-bottom: 2rem;
+}
+
+.index__boton{
+    text-decoration: none;
+	color: #FFF;
+	padding: 9px 20px;
+	border: 1px solid #FFF;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+}
+
+.index__boton:hover{
+	background-color: $blanco;
+	color: $gris;
+}
+
 
 .footer{
     p{
@@ -91,26 +118,28 @@ font-size: 3rem;
     display:flex;
     margin: auto;
     width: 180px;
+    animation: bounceIn  3s linear;
 }
+
+
 /*Fin Estilos Generales*/
 
-
 /*Inicio estilos Index*/
-.card{
-    div{
-        img{
-            transition: 2s linear;
-        }
-    }
-}  
+// .card{
+//     div{
+//         img{
+//             transition: 2s linear;
+//         }
+//     }
+// }  
 
-.card{
-    div{
-        img:hover{
-            width: 120%;
-        }
-    }
-}  
+// .card{
+//     div{
+//         img:hover{
+//             width: 120%;
+//         }
+//     }
+// }  
 
 .card{
     background:none ;
@@ -197,14 +226,18 @@ font-size: 3rem;
 }
 
 .birra-platos img {
-    width: 14rem;
-    height: 14rem;
+    width: 15rem;
+    height: 14.5rem;
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 
-.birra-platos h4, .birra-platos .h4 {
+.birra-platos h4 {
     margin-top: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 1;
+}
+
+.birra-platos p {
+    margin-top: 1rem;
 }
 
 

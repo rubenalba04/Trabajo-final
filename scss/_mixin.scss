@@ -19,9 +19,9 @@
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 
 @mixin sombras {
@@ -37,7 +37,6 @@
 
 
 @mixin carrusel {
-    width: 70%; 
     margin: auto;
     display:block;
     padding: auto;
@@ -89,12 +88,4 @@
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-
-@mixin boton {
-    display: block;
-    margin: auto;
-    padding: auto;
-    
 }

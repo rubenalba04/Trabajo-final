@@ -1,5 +1,6 @@
 @import"variables";
 @import"mixin";
+@import"animaciones";
 
 .navbar{
     background:none;
@@ -9,6 +10,8 @@
     margin-top: 5px;
     margin-bottom: 5px;
     border: 5px $blanco;
+    animation-duration: 3s;
+    animation-name: bounceInRight;
 }
 
 .navbar-nav{
@@ -34,12 +37,10 @@
     }
 }
 
-.navbar .navbar-toggler{
-    color: none;
-}
-.navbar-toggler:hover {
-    text-decoration: none;
-}
+
+
+
+
 
 
 

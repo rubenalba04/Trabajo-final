@@ -3,6 +3,90 @@
   padding: 0;
   box-sizing: border-box; }
 
+@keyframes derecha-izquierda {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes izquierda-derecha {
+  from {
+    margin-left: 0%;
+    width: 100%; }
+  to {
+    margin-left: 100%;
+    width: 300%; } }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-120deg); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg); } }
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px); }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px); }
+  80% {
+    transform: translateX(10px); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px); }
+  60% {
+    opacity: 1;
+    transform: translateX(30px); }
+  80% {
+    transform: translateX(-10px); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3); }
+  50% {
+    opacity: 1;
+    transform: scale(1.05); }
+  70% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes wobble {
+  0% {
+    transform: translateX(0%); }
+  15% {
+    transform: translateX(-25%) rotate(-5deg); }
+  30% {
+    transform: translateX(20%) rotate(3deg); }
+  45% {
+    transform: translateX(-15%) rotate(-3deg); }
+  60% {
+    transform: translateX(10%) rotate(2deg); }
+  75% {
+    transform: translateX(-5%) rotate(-1deg); }
+  100% {
+    transform: translateX(0%); } }
+
 .container__sidebar > button {
   position: fixed;
   right: 0;
@@ -101,6 +185,90 @@
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
 
+@keyframes derecha-izquierda {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes izquierda-derecha {
+  from {
+    margin-left: 0%;
+    width: 100%; }
+  to {
+    margin-left: 100%;
+    width: 300%; } }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-120deg); }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg); } }
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px); }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px); }
+  80% {
+    transform: translateX(10px); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px); }
+  60% {
+    opacity: 1;
+    transform: translateX(30px); }
+  80% {
+    transform: translateX(-10px); }
+  100% {
+    transform: translateX(0); } }
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3); }
+  50% {
+    opacity: 1;
+    transform: scale(1.05); }
+  70% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes wobble {
+  0% {
+    transform: translateX(0%); }
+  15% {
+    transform: translateX(-25%) rotate(-5deg); }
+  30% {
+    transform: translateX(20%) rotate(3deg); }
+  45% {
+    transform: translateX(-15%) rotate(-3deg); }
+  60% {
+    transform: translateX(10%) rotate(2deg); }
+  75% {
+    transform: translateX(-5%) rotate(-1deg); }
+  100% {
+    transform: translateX(0%); } }
+
 .navbar {
   background: none;
   font-family: "Roboto Slab", serif;
@@ -108,7 +276,9 @@
   margin: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
-  border: 5px #FFFFFF; }
+  border: 5px #FFFFFF;
+  animation-duration: 3s;
+  animation-name: bounceInRight; }
 
 .navbar-nav .nav-item .nav-link {
   color: #FCEFEF;
@@ -122,56 +292,50 @@
   color: #bb4430;
   text-decoration: underline 1px #bb4430; }
 
-.navbar .navbar-toggler {
-  color: none; }
-
-.navbar-toggler:hover {
-  text-decoration: none; }
-
 /*Inicio background*/
 .header_index {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
 
 .header_nosotros {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
 
 .header_carta {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
 
 .header_cerveza {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-cerveza.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-cerveza.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
 
 .header_contacto {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-contacto.jpg);
@@ -180,13 +344,15 @@
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  height: 90vh; }
+  height: 100vh; }
 
 body {
-  width: 100%;
-  background: #bb4430; }
+  background: #6d342c;
+  background: linear-gradient(90deg, #6d342c 0%, #bb4530 50%, #b54430 50%, #6d342c 100%);
+  background: -moz-linear-gradient(90deg, #6d342c 0%, #bb4530 50%, #b54430 50%, #6d342c 100%);
+  background: -webkit-linear-gradient(90deg, #6d342c 0%, #bb4530 50%, #b54430 50%, #6d342c 100%); }
 
 footer {
   background: #212529;
@@ -207,19 +373,34 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-weight: bolder;
   font-family: 'Roboto Slab', serif;
-  text-shadow: 1px 1px 2px #101112; }
-
-.btn {
-  display: block;
-  margin: auto;
-  padding: auto; }
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
 
 .index__titulo {
   font-size: 2.8rem;
-  transition: font-size 3s ease-in; }
+  margin: 1rem;
+  transition: font-size 3s ease-in;
+  animation-delay: 3s;
+  animation-name: pulse; }
 
 .index__titulo:hover {
   font-size: 3rem; }
+
+.index__titulo-2 {
+  margin-bottom: 2rem; }
+
+.index__boton {
+  text-decoration: none;
+  color: #FFF;
+  padding: 9px 20px;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out; }
+
+.index__boton:hover {
+  background-color: #FFFFFF;
+  color: #212529; }
 
 .footer p {
   margin: 2px 2px;
@@ -230,16 +411,11 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   display: flex;
   margin: auto;
-  width: 180px; }
+  width: 180px;
+  animation: bounceIn  3s linear; }
 
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
-.card div img {
-  transition: 2s linear; }
-
-.card div img:hover {
-  width: 120%; }
-
 .card {
   background: none;
   margin-top: 30px;
@@ -390,7 +566,6 @@ h1, h2, h3, h4, h5, h6 {
 /*Fin Estilos nuestra carta*/
 /*Inicio estilos Cerveza*/
 #carrusel-cerveza {
-  width: 70%;
   margin: auto;
   display: block;
   padding: auto;
@@ -408,13 +583,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center; }
 
 .birra-platos img {
-  width: 14rem;
-  height: 14rem;
+  width: 15rem;
+  height: 14.5rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1); }
 
-.birra-platos h4, .birra-platos .h4 {
+.birra-platos h4 {
   margin-top: 1.5rem;
-  margin-bottom: 0; }
+  margin-bottom: 1; }
+
+.birra-platos p {
+  margin-top: 1rem; }
 
 /*Fin Estilos Cerveza*/
 /*Inicio Estilos contacto*/
