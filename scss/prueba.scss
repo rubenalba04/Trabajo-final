@@ -209,6 +209,7 @@ font-size: 3rem;
 
 /*Inicio estilos Cerveza*/
 #carrusel-cerveza{
+    width: 100%;
     @include carrusel;
     .carousel-caption{
         p{
@@ -246,26 +247,49 @@ font-size: 3rem;
 /*Fin Estilos Cerveza*/
 
 /*Inicio Estilos contacto*/
+
+.bi-telephone,.bi-geo-fill{
+    font-size: 2em;
+    color: $blanco;
+    text-shadow: $sombratexto;
+}
+
 p{
     a {
     text-decoration: none;
     padding: 0,5em;
-        .bi-whatsapp{
+        .bi-whatsapp,.bi-facebook,.bi-instagram{
         font-size: 1.8em;
         color:$blanco;
-        text-shadow:1px 1px 1px $negro ;
+        text-shadow:1px 1px 1px $negro;
+        transition: all 1s linear;
         }
-        
-        .bi-facebook {
-        font-size: 1.8em;
+    }
+}
+
+p{
+    a {
+    text-decoration: none;
+    margin: 1em 1em;
+    padding: 1em 1em;
+        .bi-whatsapp:hover,.bi-facebook:hover,.bi-instagram:hover{
+        font-size: 2em;
         color:$blanco;
-        text-shadow:1px 1px 1px $negro ;
+        background: $colorwsp;
+        border-radius:5em 5em 5em 5em;
         }
-        
-        .bi-instagram {
-        font-size: 1.8em;
+    }
+}
+
+p{
+    a {
+    text-decoration: none;
+    padding: 1em 1em;
+        .bi-facebook:hover{
+        font-size: 2em;
         color:$blanco;
-        text-shadow:1px 1px 1px $negro ;
+        background: $colorfacebook;
+        border-radius:5em 5em;
         }
     }
 }

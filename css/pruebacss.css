@@ -716,6 +716,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Fin Estilos nuestra carta*/
 /*Inicio estilos Cerveza*/
 #carrusel-cerveza {
+  width: 100%;
   margin: auto;
   display: block;
   padding: auto;
@@ -746,21 +747,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Fin Estilos Cerveza*/
 /*Inicio Estilos contacto*/
+.bi-telephone, .bi-geo-fill {
+  font-size: 2em;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #101112; }
+
 p a {
   text-decoration: none;
   padding: 0,5em; }
-  p a .bi-whatsapp {
+  p a .bi-whatsapp, p a .bi-facebook, p a .bi-instagram {
     font-size: 1.8em;
     color: #FFFFFF;
-    text-shadow: 1px 1px 1px #101112; }
-  p a .bi-facebook {
-    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #101112;
+    transition: all 1s linear; }
+
+p a {
+  text-decoration: none;
+  margin: 1em 1em;
+  padding: 1em 1em; }
+  p a .bi-whatsapp:hover, p a .bi-facebook:hover, p a .bi-instagram:hover {
+    font-size: 2em;
     color: #FFFFFF;
-    text-shadow: 1px 1px 1px #101112; }
-  p a .bi-instagram {
-    font-size: 1.8em;
+    background: #4dc247;
+    border-radius: 5em 5em 5em 5em; }
+
+p a {
+  text-decoration: none;
+  padding: 1em 1em; }
+  p a .bi-facebook:hover {
+    font-size: 2em;
     color: #FFFFFF;
-    text-shadow: 1px 1px 1px #101112; }
+    background: #3b5998;
+    border-radius: 5em 5em; }
 
 .form-group > .btn {
   text-align: justify;
