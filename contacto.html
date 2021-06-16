@@ -87,41 +87,45 @@
 
     <main class="main">
             <section class="container">
-                  <div class="row align-items-center justify-content-center my-4">
-                    <div class="col-sm-5 col-md-5 col-lg-4">
-                      <h4>Dejanos un mensaje</h4>
-                        <form role="form" id="Formulario">
-                          <div class="form-group">
-                              <label class="control-label" for="Nombre">Nombre y Apellido</label>
-                              <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre"/>
-                          </div>            
-                          <div class="form-group">
-                              <label class="control-label" for="Motivo">Motivo de Contacto</label>
-                              <select name="Motivo" class="form-control">
-                                  <option value="Consulta General">Hacer una reserva</option>
-                                  <option value="Realizar Pedido">Realizar Pedido</option>
-                                  <option value="Informe un problema">Trabajar con nosotros</option>
-                              </select>
-                          </div>
-                          <div class="form-group">
-                              <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
-                              <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
-                          </div>
-                          <div class="form-group">
-                              <label class="control-label" for="Mensaje">Mensaje</label>
-                              <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
-                          </div>
-                          <div class="form-group">                
-                              <input type="submit" class="btn btn-dark" value="Enviar">
-                              <input type="reset" class="btn btn-dark" value="Limpiar">                
-                          </div>
-                          <div id="respuesta" style="display: none;"></div>
-                        </form>
+              <div class="row justify-content-center my-4">
+                <h4>Dejanos un mensaje</h4>
+              </div>
+                  <div class="row align-items-center justify-content-around my-4">
+                    <div class="col-sm-8 col-md-8 col-lg-5">
+                        <div class="card py-4">
+                          <form role="form" id="Formulario">
+                            <div class="form-group">
+                                <label class="control-label" for="Nombre">Nombre y Apellido</label>
+                                <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre"/>
+                            </div>            
+                            <div class="form-group">
+                                <label class="control-label" for="Motivo">Motivo de Contacto</label>
+                                <select name="Motivo" class="form-control">
+                                    <option value="Consulta General">Hacer una reserva</option>
+                                    <option value="Realizar Pedido">Realizar Pedido</option>
+                                    <option value="Informe un problema">Trabajar con nosotros</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
+                                <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="Mensaje">Mensaje</label>
+                                <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                            </div>
+                            <div class="form-group">                
+                                <input type="submit" class="btn btn-dark" value="Enviar">
+                                <input type="reset" class="btn btn-dark" value="Limpiar">                
+                            </div>
+                            <div id="respuesta" style="display: none;"></div>
+                          </form>
+                        </div>
                       </div>  <!-- cierra el div de clase col -->
                       
-                      <div class="col-sm-5 col-md-5 col-lg-4">
+                      <div class="col-sm-8 col-md-8 col-lg-5">
                           <div class="card py-4">
-                              <div class="card-body text-center">
+                              <div class="card-body contacto text-center">
                                   <h5 class="mb-2">Teléfono</h5>
                                   <p><i class="bi bi-telephone mb-2"></i>3863-534208</p>
                                   <hr class="my-4 mx-auto"/>
@@ -161,7 +165,7 @@
       </div>  
       
         <div class="row my-4 align-items-center  justify-content-center">
-        <div class="col-sm-8 col-md-7 col-lg-8"> 
+        <div class="col-sm-8 col-md-9 col-lg-9"> 
         
           <div class="main__mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14185.594152522546!2d-65.5549445!3d-27.2693869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5805b4efb733a1d0!2sDon%20Enrique%2C%20beer%20and%20food!5e0!3m2!1ses!2sar!4v1617759259630!5m2!1ses!2sar" allowfullscreen></iframe>

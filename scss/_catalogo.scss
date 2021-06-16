@@ -72,8 +72,13 @@
   }
   .catalogo-modal .modal-content ul.list-inline {
     margin-bottom: 2rem;
-    li,ol{
-      @include parrafo
+    @include parrafo;
+    text-align: left;
+    li{
+      list-style:disc;
+    } 
+    ol{
+      list-style:square;
     }
 
   }

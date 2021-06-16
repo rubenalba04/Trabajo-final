@@ -86,14 +86,10 @@ animation-name: pulse;
 font-size: 3rem;   
 }
 
-.index__titulo-2{
-    margin-bottom: 2rem;
-}
 
 .index__boton{
     text-decoration: none;
 	color: #FFF;
-	padding: 9px 20px;
 	border: 1px solid #FFF;
 	text-transform: uppercase;
 	transition: all .3s ease-in-out;
@@ -126,21 +122,6 @@ font-size: 3rem;
 /*Fin Estilos Generales*/
 
 /*Inicio estilos Index*/
-// .card{
-//     div{
-//         img{
-//             transition: 2s linear;
-//         }
-//     }
-// }  
-
-// .card{
-//     div{
-//         img:hover{
-//             width: 120%;
-//         }
-//     }
-// }  
 
 .card{
     background:none ;
@@ -213,11 +194,11 @@ font-size: 3rem;
     @include carrusel;
     .carousel-caption{
         p{
-        font-size:25px;
+        font-size:20px;
         text-shadow: 2px 2px 3px $negro;
         }
         h5{
-        font-size: 35px;
+        font-size: 30px;
         }
     }
 }
@@ -249,34 +230,38 @@ font-size: 3rem;
 /*Inicio Estilos contacto*/
 
 .bi-telephone,.bi-geo-fill{
-    font-size: 2em;
+    font-size: 1.5em;
     color: $blanco;
     text-shadow: $sombratexto;
 }
 
-p{
-    a {
-    text-decoration: none;
-    padding: 0,5em;
-        .bi-whatsapp,.bi-facebook,.bi-instagram{
-        font-size: 1.8em;
-        color:$blanco;
-        text-shadow:1px 1px 1px $negro;
-        transition: all 1s linear;
+.contacto{
+    p{ 
+        a {
+        text-decoration: none;
+            .bi-whatsapp , .bi-facebook, .bi-instagram{
+            font-size: 1.5em;
+            padding: 0em 0.1em 0em 0.1em ;
+            color:$blanco;
+            text-shadow:1px 1px 1px $negro;
+            transition: all 0.5s linear;
+            }
+            .bi:first-child{
+            border-radius: 0.3em;
+            }
         }
     }
 }
 
+
 p{
     a {
     text-decoration: none;
-    margin: 1em 1em;
     padding: 1em 1em;
-        .bi-whatsapp:hover,.bi-facebook:hover,.bi-instagram:hover{
+        .bi-whatsapp:hover{
         font-size: 2em;
         color:$blanco;
         background: $colorwsp;
-        border-radius:5em 5em 5em 5em;
         }
     }
 }
@@ -289,7 +274,18 @@ p{
         font-size: 2em;
         color:$blanco;
         background: $colorfacebook;
-        border-radius:5em 5em;
+        }
+    }
+}
+
+p{
+    a {
+    text-decoration: none;
+    padding: 1em 1em;
+        .bi-instagram:hover{
+        font-size: 2em;
+        color:$blanco;
+        background: $colorinstagram;
         }
     }
 }

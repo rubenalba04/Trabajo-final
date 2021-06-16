@@ -111,30 +111,30 @@
 
 
 	26%{
-        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index2.jpg);
         @include fondos;
 	}
 	50%{
-        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index2.jpg);
         @include fondos;
 	}
 
 
 	51%{
-        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index3.jpg);
         @include fondos;
 	}
 	75%{
-        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index3.jpg);
         @include fondos;	
 	}
-	
-
 	76%{
-		background-image: url('../assets/img/banner-4.jpg');
+		background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index4.jpg);
+	    @include fondos;
 	}
 	100%{
-		background-image: url('../assets/img/banner-4.jpg');
+		background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index4.jpg);
+	    @include fondos;
 	}
 
 }
