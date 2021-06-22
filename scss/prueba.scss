@@ -19,34 +19,39 @@ box-sizing: border-box
 
 
 .header_index{
+    align-items: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
     @include fondos;
     animation: banner 24s infinite linear;
 }
 
 .header_nosotros{
+    align-items: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
     @include fondos;
 }
 
 .header_carta{
+    align-items: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
     @include fondos;
 }
 
 .header_cerveza{
+    align-items: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
     @include fondos;
 
 }
 
 .header_contacto{
+    align-items: center;
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-contacto.jpg);
     @include fondos;
 }
 
 body{
-    background: $rojo;
+    background: $blanco;
 }
 
 footer{
@@ -67,33 +72,6 @@ h1,h2,h3,h4,h5,h6{
 animation-name: bounceInLeft;
 animation-duration: 3s;
 }
-
-.index__titulo {
-font-size: 2.8rem;
-margin: 1rem;
-transition: font-size 3s ease-in;
-animation-delay:3s;
-animation-name: pulse;
-}
-
-.index__titulo:hover{
-font-size: 3rem;   
-}
-
-
-.index__boton{
-    text-decoration: none;
-	color: #FFF;
-	border: 1px solid #FFF;
-	text-transform: uppercase;
-	transition: all .3s ease-in-out;
-}
-
-.index__boton:hover{
-	background-color: $blanco;
-	color: $gris;
-}
-
 
 .footer{
     p{
@@ -117,6 +95,49 @@ font-size: 3rem;
 
 /*Inicio estilos Index*/
 
+.index__titulo {
+    font-size: 2.8rem;
+    margin: 1rem;
+    justify-content: center;
+    transition: font-size 3s ease-in;
+    animation-delay:3s;
+    animation-name: pulse;
+    }
+    
+    .index__titulo:hover{
+    font-size: 3rem;   
+    }
+    
+    
+    .index__boton{
+        text-decoration: none;
+        justify-content: center;
+        color: #FFF;
+        border: 1px solid #FFF;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+    }
+    
+    .index__boton:hover{
+        background-color: $blanco;
+        color: $gris;
+    }
+.catalogo-hover {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background:$orosuave;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity ease-in-out 0.50s;
+    }
+
+     .catalogo-hover:hover{
+        opacity: 8;
+      }
+    
 .card{
     background:none ;
     margin-top: 30px;
@@ -125,21 +146,13 @@ font-size: 3rem;
     border: 5px solid $rojo;
 }
 
+
 .card-cover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.card-title{
-    font-size: 30px;
-    text-shadow: 3px 3px 4px $negro;
-}
-
-.card-text{
-    font-size: 20px;
-    text-shadow: 3px 3px 4px $negro;
-}
 /*Fin estilos Index*/ 
 
 

@@ -535,7 +535,7 @@ div .sidebar .bi-layout-text-sidebar:hover {
   width: 100%; }
 
 body {
-  background: #941B18; }
+  background: #FFFFFF; }
 
 footer {
   background: #212529;
@@ -560,27 +560,6 @@ h1, h2, h3, h4, h5, h6 {
   animation-name: bounceInLeft;
   animation-duration: 3s; }
 
-.index__titulo {
-  font-size: 2.8rem;
-  margin: 1rem;
-  transition: font-size 3s ease-in;
-  animation-delay: 3s;
-  animation-name: pulse; }
-
-.index__titulo:hover {
-  font-size: 3rem; }
-
-.index__boton {
-  text-decoration: none;
-  color: #FFF;
-  border: 1px solid #FFF;
-  text-transform: uppercase;
-  transition: all .3s ease-in-out; }
-
-.index__boton:hover {
-  background-color: #FFFFFF;
-  color: #212529; }
-
 .footer p {
   margin: 2px 2px;
   padding: auto; }
@@ -595,6 +574,43 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
+.index__titulo {
+  font-size: 2.8rem;
+  margin: 1rem;
+  justify-content: center;
+  transition: font-size 3s ease-in;
+  animation-delay: 3s;
+  animation-name: pulse; }
+
+.index__titulo:hover {
+  font-size: 3rem; }
+
+.index__boton {
+  text-decoration: none;
+  justify-content: center;
+  color: #FFF;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out; }
+
+.index__boton:hover {
+  background-color: #FFFFFF;
+  color: #212529; }
+
+.catalogo-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #E0B41170;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.50s; }
+
+.catalogo-hover:hover {
+  opacity: 8; }
+
 .card {
   background: none;
   margin-top: 30px;
@@ -606,14 +622,6 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
-
-.card-title {
-  font-size: 30px;
-  text-shadow: 3px 3px 4px #101112; }
-
-.card-text {
-  font-size: 20px;
-  text-shadow: 3px 3px 4px #101112; }
 
 /*Fin estilos Index*/
 /*Inicio estilos Nosotros*/
