@@ -47,10 +47,6 @@
   .catalogo-modal {
   .modal-dialog{
   .modal-content {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-self: center;
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
     border-radius: 6px;
     border: $oro solid 0.5rem;
@@ -58,6 +54,7 @@
     padding-bottom: 2rem;
     text-align: center;
     background: $rojo;
+    margin-top: 50%;
     
   }
   }

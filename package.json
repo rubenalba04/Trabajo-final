@@ -1,7 +1,7 @@
 {
   "name": "ruben",
   "version": "1.0.0",
-  "description": "",
+  "description": "Trabajo Final -Desarrollo web Coder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,13 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenalba04/Trabajo-final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubenalba04/Trabajo-final/issues"
+  },
+  "homepage": "https://github.com/rubenalba04/Trabajo-final#readme"
 }

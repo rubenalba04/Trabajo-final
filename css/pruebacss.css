@@ -474,7 +474,10 @@ div .sidebar .bi-layout-text-sidebar:hover {
 
 /*Inicio background*/
 .header_index {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -488,7 +491,9 @@ div .sidebar .bi-layout-text-sidebar:hover {
   animation: banner 24s infinite linear; }
 
 .header_nosotros {
+  display: flex;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -501,7 +506,9 @@ div .sidebar .bi-layout-text-sidebar:hover {
   width: 100%; }
 
 .header_carta {
+  display: flex;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -514,7 +521,9 @@ div .sidebar .bi-layout-text-sidebar:hover {
   width: 100%; }
 
 .header_cerveza {
+  display: flex;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-cerveza.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -527,7 +536,9 @@ div .sidebar .bi-layout-text-sidebar:hover {
   width: 100%; }
 
 .header_contacto {
+  display: flex;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-contacto.jpg);
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -646,6 +657,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%; }
 
+#galeria1 .modal-dialog img, #galeria2 .modal-dialog img, #galeria3 .modal-dialog img, #galeria4 .modal-dialog img, #galeria5 .modal-dialog img, #galeria6 .modal-dialog img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%; }
+
 /*Fin de Estilos Nosotros*/
 /*Inicio estilos nuestra carta*/
 .bi-plus-lg {
@@ -690,17 +707,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF; }
 
 .catalogo-modal .modal-dialog .modal-content {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-self: center;
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   border-radius: 6px;
   border: #E0B411 solid 0.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
-  background: #941B18; }
+  background: #941B18;
+  margin-top: 50%; }
 
 .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
   font-size: 2rem;

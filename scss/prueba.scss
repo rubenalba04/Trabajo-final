@@ -19,33 +19,44 @@ box-sizing: border-box
 
 
 .header_index{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
     @include fondos;
     animation: banner 24s infinite linear;
 }
 
 .header_nosotros{
+    display: flex;
     align-items: center;
+    justify-content: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
     @include fondos;
 }
 
 .header_carta{
+    display: flex;
     align-items: center;
+    justify-content: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
     @include fondos;
 }
 
 .header_cerveza{
+    display: flex;
     align-items: center;
+    justify-content: center;
     background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
     @include fondos;
 
 }
 
 .header_contacto{
+    display: flex;
     align-items: center;
+    justify-content: center;
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-contacto.jpg);
     @include fondos;
 }
@@ -167,6 +178,16 @@ animation-duration: 3s;
     @include responsive-iframe;
 }
 
+#galeria1,#galeria2,#galeria3,#galeria4,#galeria5,#galeria6{
+.modal-dialog{
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+}
+}
 /*Fin de Estilos Nosotros*/
 
 
