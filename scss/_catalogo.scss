@@ -41,40 +41,34 @@
     font-size: 1.5rem;
     font-family: $roboto;
     color: $blanco;
-    font-weight: 700;
   }
-  #catalogo .catalogo-item .catalogo-caption .catalogo-caption-subheading {
-    font-style: italic;
-    font-family: $roboto;  }
+
   
-  .catalogo-modal .modal-dialog {
+  .catalogo-modal {
+  .modal-dialog{
+  .modal-content {
     margin: auto;
-    display: block;
-    
-  }
-  .modal-dialog .modal-content{
+    display: flex;
+    justify-content: center;
+    align-self: center;
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
     border-radius: 6px;
-    border: none;
-}
-  
-  .catalogo-modal .modal-content {
+    border: $oro solid 0.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
     background: $rojo;
+    
   }
+  }
+  } 
+
+  
   .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
     font-size: 2rem;
     line-height: 3rem;
   }
-  .catalogo-modal .modal-content p.item-intro {
-    margin-bottom: 2rem;
-    font-family: $roboto;
-  }
-  .catalogo-modal .modal-content p {
-    margin-bottom: 2rem;
-  }
+
   .catalogo-modal .modal-content ul.list-inline {
     margin-bottom: 2rem;
     @include parrafo;
@@ -87,19 +81,19 @@
     }
 
   }
-  .catalogo-modal .modal-content img {
-    margin-bottom: 2rem;
-  }
-  .catalogo-modal .close-modal {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    width: 3rem;
-    height: 3rem;
-    cursor: pointer;
-    background-color: transparent;
-}
 
-.catalogo-modal .close-modal:hover {
-    opacity: 0.3;
+  .boton__modal {
+    justify-content: center;
+    color: $blanco;
+    background-color: $gris;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+  }
+
+
+.boton__modal:hover {
+  background-color: $orosuave;
+  color: $gris;
 }
