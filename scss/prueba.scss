@@ -181,13 +181,10 @@ animation-duration: 3s;
 #galeria1,#galeria2,#galeria3,#galeria4,#galeria5,#galeria6{
 .modal-dialog{
 img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 }
-}
+
 /*Fin de Estilos Nosotros*/
 
 
@@ -325,5 +322,7 @@ label{
 .main__mapa object,
 .main__mapa embed {
 @include responsive-iframe;
+
 }
-/*Fin Estilos contacto*/
+
+/*Fin Estilos contacto*/}
