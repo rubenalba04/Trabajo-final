@@ -42,7 +42,6 @@
     font-family: $roboto;
     color: $blanco;
     font-weight: 700;
-    margin-bottom: 0;
   }
   #catalogo .catalogo-item .catalogo-caption .catalogo-caption-subheading {
     font-style: italic;
@@ -53,6 +52,12 @@
     display: block;
     
   }
+  .modal-dialog .modal-content{
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+    border: none;
+}
+  
   .catalogo-modal .modal-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
