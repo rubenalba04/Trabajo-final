@@ -1,328 +1,327 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box
-}
-
-@import"variables";
-@import"mixin";
-@import"animaciones";
-
-// Inicio estilos sidebar 
-@import"sidebar.scss";
-
-// Estilos navbar
-@import"navbar.scss";
-
-
-/*Inicio background*/
-
-
-.header_index{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
-    @include fondos;
-    animation: banner 24s infinite linear;
-}
-
-.header_nosotros{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
-    @include fondos;
-}
-
-.header_carta{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
-    @include fondos;
-}
-
-.header_cerveza{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
-    @include fondos;
-
-}
-
-.header_contacto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-contacto.jpg);
-    @include fondos;
-}
-
-body{
-    background: $blanco;
-}
-
-footer{
-    background: $gris;
-    border: solid 2px $negro;
-}
-
-/*fin background*/
-
-/*Inicio Estilos titulos y parrafos*/
-
-p{
-    @include parrafo;
-}
-
-h1,h2,h3,h4,h5,h6{
-@include titulos;
-animation-name: bounceInLeft;
-animation-duration: 3s;
-}
-
-.footer{
-    p{
-        margin:2px 2px;
-        padding: auto;
-    }
-}
-/*Fin Estilos titulos y parrafos*/
-
-/*Inicio Estilos generales*/
-
-.logo{
-    display:flex;
-    margin: auto;
-    width: 180px;
-    animation: bounceIn  3s linear;
-}
-
-
-/*Fin Estilos Generales*/
-
-/*Inicio estilos Index*/
-
-.index__titulo {
-    font-size: 2.8rem;
-    margin: 1rem;
-    justify-content: center;
-    transition: font-size 3s ease-in;
-    animation-delay:3s;
-    animation-name: pulse;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
     }
     
-    .index__titulo:hover{
-    font-size: 3rem;   
-    }
+    @import"variables";
+    @import"mixin";
+    @import"animaciones";
+    
+    // Inicio estilos sidebar 
+    @import"sidebar.scss";
+    
+    // Estilos navbar
+    @import"navbar.scss";
     
     
-    .index__boton{
-        text-decoration: none;
+    /*Inicio background*/
+    
+    
+    .header_index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        color: #FFF;
-        border: 1px solid #FFF;
-        text-transform: uppercase;
-        transition: all .3s ease-in-out;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-index.jpg);
+        @include fondos;
+        animation: banner 24s infinite linear;
     }
     
-    .index__boton:hover{
-        background-color: $blanco;
-        color: $gris;
+    .header_nosotros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-nosotros.jpg);
+        @include fondos;
     }
-
-.card{
-    background:none ;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    box-shadow: $sombra;
-    border: 5px solid $rojo;
-}
-
-
-.card-cover {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-/*Fin estilos Index*/ 
-
-
-
-/*Inicio estilos Nosotros*/
-.main__parrafo{
-    word-spacing: 5px;
-    text-shadow: 2px 2px 3px $negro;
-}
-
-@media (max-width: 768px) {
-    .main__parrafo{
-    font-size: 1rem;}
+    
+    .header_carta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
+        @include fondos;
+        border: $oro 0.5rem solid;
     }
-@media (max-width: 576px) {
-    .main__parrafo{
-    font-size: 0.8rem;}
+    
+    .header_cerveza{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-cerveza.jpg);
+        @include fondos;
+    
     }
-
-.main__video {
-    @include iframe-contenedor;
-}
-
-.main__video iframe,
-.main__video object,
-.main__video embed {
-    @include responsive-iframe;
-}
-
-#galeria1,#galeria2,#galeria3,#galeria4,#galeria5,#galeria6{
-.modal-dialog{
-img{
-    margin-top: 25%;
-}
-}
-
-/*Fin de Estilos Nosotros*/
-
-
-/*Inicio estilos nuestra carta*/
-
-.bi-plus-lg{
-    font-size: 2rem;
-}
-
-@import "catalogo.scss";
-
-/*Fin Estilos nuestra carta*/
-
-
-/*Inicio estilos Cerveza*/
-#carrusel-cerveza{
-    width: 100%;
-    @include carrusel;
-    .carousel-caption{
+    
+    .header_contacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fondos/fondo-contacto.jpg);
+        @include fondos;
+    }
+    
+    body{
+        background: $rojo;
+    }
+    
+    footer{
+        background: $gris;
+        border: solid 2px $negro;
+    }
+    
+    /*fin background*/
+    
+    /*Inicio Estilos titulos y parrafos*/
+    
+    p{
+        @include parrafo;
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+    @include titulos;
+    animation-name: bounceInLeft;
+    animation-duration: 3s;
+    }
+    
+    .footer{
         p{
-        font-size:20px;
-        text-shadow: 2px 2px 3px $negro;
-        }
-        h5{
-        font-size: 30px;
+            margin:2px 2px;
+            padding: auto;
         }
     }
-}
-
-.birra-platos {
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.birra-platos img {
-    width: 15rem;
-    height: 14.5rem;
-    border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
-
-.birra-platos h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1;
-}
-
-.birra-platos p {
-    margin-top: 1rem;
-}
-
-
-
-/*Fin Estilos Cerveza*/
-
-/*Inicio Estilos contacto*/
-
-.bi-telephone,.bi-geo-fill{
-    font-size: 1.5em;
-    color: $blanco;
-    text-shadow: $sombratexto;
-}
-
-.contacto{
-    p{ 
+    /*Fin Estilos titulos y parrafos*/
+    
+    /*Inicio Estilos generales*/
+    
+    .logo{
+        display:flex;
+        margin: auto;
+        width: 180px;
+        animation: bounceIn  3s linear;
+    }
+    
+    
+    /*Fin Estilos Generales*/
+    
+    /*Inicio estilos Index*/
+    
+    .index__titulo {
+        font-size: 2.8rem;
+        margin: 1rem;
+        justify-content: center;
+        transition: font-size 3s ease-in;
+        animation-delay:3s;
+        animation-name: pulse;
+        }
+        
+        .index__titulo:hover{
+        font-size: 3rem;   
+        }
+        
+        
+        .index__boton{
+            text-decoration: none;
+            justify-content: center;
+            color: #FFF;
+            border: 1px solid #FFF;
+            text-transform: uppercase;
+            transition: all .3s ease-in-out;
+        }
+        
+        .index__boton:hover{
+            background-color: $blanco;
+            color: $gris;
+        }
+    
+    .card{
+        background:none ;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: $sombra;
+        border: 5px solid $rojo;
+    }
+    
+    
+    .card-cover {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    /*Fin estilos Index*/ 
+    
+    
+    
+    /*Inicio estilos Nosotros*/
+    .main__parrafo{
+        word-spacing: 5px;
+        text-shadow: 2px 2px 3px $negro;
+    }
+    
+    @media (max-width: 768px) {
+        .main__parrafo{
+        font-size: 1rem;}
+        }
+    @media (max-width: 576px) {
+        .main__parrafo{
+        font-size: 0.8rem;}
+        }
+    
+    .main__video {
+        @include iframe-contenedor;
+    }
+    
+    .main__video iframe,
+    .main__video object,
+    .main__video embed {
+        @include responsive-iframe;
+    }
+    
+    #galeria1,#galeria2,#galeria3,#galeria4,#galeria5,#galeria6{
+    .modal-dialog{
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    }
+    }
+    /*Fin de Estilos Nosotros*/
+    
+    
+    /*Inicio estilos nuestra carta*/
+    
+    .bi-plus-lg{
+        font-size: 2rem;
+    }
+    
+    @import "catalogo.scss";
+    
+    /*Fin Estilos nuestra carta*/
+    
+    
+    /*Inicio estilos Cerveza*/
+    #carrusel-cerveza{
+        width: 100%;
+        @include carrusel;
+        .carousel-caption{
+            p{
+            font-size:20px;
+            text-shadow: 2px 2px 3px $negro;
+            }
+            h5{
+            font-size: 30px;
+            }
+        }
+    }
+    
+    .birra-platos {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .birra-platos img {
+        width: 15rem;
+        height: 14.5rem;
+        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .birra-platos h4 {
+        margin-top: 1.5rem;
+        margin-bottom: 1;
+    }
+    
+    .birra-platos p {
+        margin-top: 1rem;
+    }
+    
+    
+    
+    /*Fin Estilos Cerveza*/
+    
+    /*Inicio Estilos contacto*/
+    
+    .bi-telephone,.bi-geo-fill{
+        font-size: 1.5em;
+        color: $blanco;
+        text-shadow: $sombratexto;
+    }
+    
+    .contacto{
+        p{ 
+            a {
+            text-decoration: none;
+                .bi-whatsapp , .bi-facebook, .bi-instagram{
+                font-size: 1.5em;
+                padding: 0em 0.1em 0em 0.1em ;
+                color:$blanco;
+                text-shadow:1px 1px 1px $negro;
+                transition: all 0.5s linear;
+                }
+                .bi:first-child{
+                border-radius: 0.3em;
+                }
+            }
+        }
+    }
+    
+    
+    p{
         a {
         text-decoration: none;
-            .bi-whatsapp , .bi-facebook, .bi-instagram{
-            font-size: 1.5em;
-            padding: 0em 0.1em 0em 0.1em ;
+        padding: 1em 1em;
+            .bi-whatsapp:hover{
+            font-size: 2em;
             color:$blanco;
-            text-shadow:1px 1px 1px $negro;
-            transition: all 0.5s linear;
-            }
-            .bi:first-child{
-            border-radius: 0.3em;
+            background: $colorwsp;
             }
         }
     }
-}
-
-
-p{
-    a {
-    text-decoration: none;
-    padding: 1em 1em;
-        .bi-whatsapp:hover{
-        font-size: 2em;
-        color:$blanco;
-        background: $colorwsp;
+    
+    p{
+        a {
+        text-decoration: none;
+        padding: 1em 1em;
+            .bi-facebook:hover{
+            font-size: 2em;
+            color:$blanco;
+            background: $colorfacebook;
+            }
         }
     }
-}
-
-p{
-    a {
-    text-decoration: none;
-    padding: 1em 1em;
-        .bi-facebook:hover{
-        font-size: 2em;
-        color:$blanco;
-        background: $colorfacebook;
+    
+    p{
+        a {
+        text-decoration: none;
+        padding: 1em 1em;
+            .bi-instagram:hover{
+            font-size: 2em;
+            color:$blanco;
+            background: $colorinstagram;
+            }
         }
     }
-}
-
-p{
-    a {
-    text-decoration: none;
-    padding: 1em 1em;
-        .bi-instagram:hover{
-        font-size: 2em;
-        color:$blanco;
-        background: $colorinstagram;
-        }
+    
+    .form-group>.btn{
+        text-align: justify;
+        display: inline-block;
+        margin: auto;
     }
-}
-
-
-
-
-.form-group>.btn{
-    text-align: justify;
-    display: inline-block;
-    margin: auto;
-}
-
-label{
-@include parrafo;
-}
-
-.main__mapa{
-@include iframe-contenedor;
-}
-
-.main__mapa iframe,
-.main__mapa object,
-.main__mapa embed {
-@include responsive-iframe;
-
-}
-
-/*Fin Estilos contacto*/}
+    
+    label{
+    @include parrafo;
+    }
+    
+    .main__mapa{
+    @include iframe-contenedor;
+    }
+    
+    .main__mapa iframe,
+    .main__mapa object,
+    .main__mapa embed {
+    @include responsive-iframe;
+    }
+    /*Fin Estilos contacto*/
