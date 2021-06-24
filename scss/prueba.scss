@@ -65,7 +65,12 @@
         background: $rojo;
     }
     
+    main{
+        margin-bottom: 30px;
+    }
+    
     footer{
+        
         background: $gris;
     }
     
@@ -111,16 +116,12 @@
         animation-name: bounceInLeft;
         animation-duration: 3s;
         }
-    
-    
-    
-    
+
     .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 64px;
-        p{
-            margin:2px 2px;
-            padding: auto;
-        }
     }
     /*Fin Estilos titulos y parrafos*/
     
@@ -183,6 +184,11 @@
             }
     }
     
+    .main__index{
+        p{
+            font-size: 18px;
+        }
+    }
     
     .card{
         background:none ;
@@ -197,6 +203,21 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+    }
+    
+    .card__boton{
+        text-decoration: none;
+        font-size: 20px;
+        justify-content: center;
+        color: #FFF;
+        border: 1px solid #FFF;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+    }
+    
+    .card__boton:hover{
+        background-color: $blanco;
+        color: $gris;
     }
     
     

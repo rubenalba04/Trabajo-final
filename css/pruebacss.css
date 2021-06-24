@@ -552,6 +552,9 @@ div .sidebar .bi-layout-text-sidebar:hover {
 body {
   background: #8F3029; }
 
+main {
+  margin-bottom: 30px; }
+
 footer {
   background: #212529; }
 
@@ -617,10 +620,10 @@ h5 {
   animation-duration: 3s; }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 64px; }
-  .footer p {
-    margin: 2px 2px;
-    padding: auto; }
 
 /*Fin Estilos titulos y parrafos*/
 /*Inicio Estilos generales*/
@@ -670,6 +673,9 @@ hr {
   .index__card img {
     border-radius: 0px 0px 20px 20px; }
 
+.main__index p {
+  font-size: 18px; }
+
 .card {
   background: none;
   margin-top: 30px;
@@ -681,6 +687,19 @@ hr {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+
+.card__boton {
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: center;
+  color: #FFF;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out; }
+
+.card__boton:hover {
+  background-color: #FFFFFF;
+  color: #212529; }
 
 /*Fin estilos Index*/
 /*Inicio estilos Nosotros*/
