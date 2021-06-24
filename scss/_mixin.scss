@@ -2,20 +2,20 @@
 
 @mixin bi {
     color: $blanco;
-	padding: .5rem;
+	padding: 8px;
 	display: flex;
 	transition: all .5s;
 }
 
 @mixin bihover{
-	padding-right: 3rem;
-	border-radius: 1rem 0 0 1rem;
-	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+	padding-right: 45px;
+	border-radius: 16px 0 0 16px;
+	box-shadow: 0 0 .8px rgba(0, 0, 0, 0.42);
 }
 
 @mixin fondos {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -43,7 +43,8 @@
     padding: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    box-shadow: 20px 5px 10px $gris;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 @mixin parrafo{
@@ -80,7 +81,9 @@
     padding-top: 60px; overflow: hidden;
     margin:10px 10px 10px 10px;
     border-radius: 10px;
-    box-shadow: 20px 5px 10px $gris; 
+    box-shadow: 0px 34px 32px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 34px 32px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 34px 32px -2px rgba(0,0,0,0.75);
 }
 
 @mixin responsive-iframe {

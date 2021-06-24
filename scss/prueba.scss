@@ -100,14 +100,24 @@
         animation: bounceIn  3s linear;
     }
     
+    hr {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: $oro solid 5px;
+        height: 30px;
+        width: 50%;
+    }
     
     /*Fin Estilos Generales*/
     
     /*Inicio estilos Index*/
     
     .index__titulo {
-        font-size: 2.8rem;
-        margin: 1rem;
+        font-size: 40px;
+        margin: 16px;
         justify-content: center;
         transition: font-size 3s ease-in;
         animation-delay:3s;
@@ -115,7 +125,7 @@
         }
         
         .index__titulo:hover{
-        font-size: 3rem;   
+        font-size: 45px;   
         }
         
         
@@ -132,6 +142,14 @@
             background-color: $blanco;
             color: $gris;
         }
+    
+    .index__card{
+        border-radius: 2em;
+            img{
+                border-radius: 32px 32px 0px 0px ;
+            }
+    }
+    
     
     .card{
         background:none ;
@@ -164,7 +182,7 @@
         }
     @media (max-width: 576px) {
         .main__parrafo{
-        font-size: 0.8rem;}
+        font-size: 12px ;}
         }
     
     .main__video {
@@ -193,7 +211,7 @@
     /*Inicio estilos nuestra carta*/
     
     .bi-plus-lg{
-        font-size: 2rem;
+        font-size: 16px;
     }
     
     @import "catalogo.scss";
@@ -217,23 +235,23 @@
     }
     
     .birra-platos {
-        margin-bottom: 3rem;
+        margin-bottom: 48px;
         text-align: center;
     }
     
     .birra-platos img {
-        width: 15rem;
-        height: 14.5rem;
+        width: 240px;
+        height: 232px;
         border: $orosuave 5px solid;
     }
     
     .birra-platos h4 {
-        margin-top: 1.5rem;
+        margin-top: 24px;
         margin-bottom: 1;
     }
     
     .birra-platos p {
-        margin-top: 1rem;
+        margin-top: 16px;
     }
     
     
@@ -242,10 +260,11 @@
     
     /*Inicio Estilos contacto*/
     
-    .bi-telephone,.bi-geo-fill{
-        font-size: 1.5em;
+    .bi-telephone,.bi-geo-fill,.bi-alarm{
+        font-size: 24px;
         color: $blanco;
         text-shadow: $sombratexto;
+        margin-right: 16px;
     }
     
     .contacto{
@@ -254,7 +273,7 @@
             text-decoration: none;
                 .bi-whatsapp , .bi-facebook, .bi-instagram{
                 font-size: 1.5em;
-                padding: 0em 0.1em 0em 0.1em ;
+                padding: 0px 2px 0px 2px;
                 color:$blanco;
                 text-shadow:1px 1px 1px $negro;
                 transition: all 0.5s linear;
@@ -270,9 +289,9 @@
     p{
         a {
         text-decoration: none;
-        padding: 1em 1em;
+        padding: 16px 16px;
             .bi-whatsapp:hover{
-            font-size: 2em;
+            font-size: 32px;
             color:$blanco;
             background: $colorwsp;
             }
@@ -282,9 +301,9 @@
     p{
         a {
         text-decoration: none;
-        padding: 1em 1em;
+        padding: 16px 16px;
             .bi-facebook:hover{
-            font-size: 2em;
+            font-size: 32px;
             color:$blanco;
             background: $colorfacebook;
             }
@@ -294,14 +313,15 @@
     p{
         a {
         text-decoration: none;
-        padding: 1em 1em;
+        padding: 16px 16px;
             .bi-instagram:hover{
-            font-size: 2em;
+            font-size: 32px;
             color:$blanco;
             background: $colorinstagram;
             }
         }
     }
+    
     
     .form-group>.btn{
         text-align: justify;

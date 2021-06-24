@@ -2,7 +2,7 @@
 @import"mixin";
 
 #catalogo .catalogo-item {
-    max-width: 26rem;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -13,6 +13,7 @@
     margin: 0 auto;
     img{
       border-radius: 50%;
+      border: $orosuave solid;
     }
 }
 
@@ -30,19 +31,19 @@
 }
   
   #catalogo .catalogo-item .catalogo-link .catalogo-hover .catalogo-hover-content {
-    font-size: 1.25rem;
+    font-size: 20px;
     color: white;
   }
   #catalogo .catalogo-item .catalogo-link:hover .catalogo-hover {
     opacity: 10;
   }
   #catalogo .catalogo-item .catalogo-caption {
-    padding: 1.5rem;
+    padding: 24px;
     text-align: center;
     background-color: $rojo;
   }
   #catalogo .catalogo-item .catalogo-caption .catalogo-caption-heading {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-family: $roboto;
     color: $blanco;
   }
@@ -54,9 +55,9 @@
     margin-top: 50%;
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
     border-radius: 6px;
-    border: $oro solid 0.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    border: $oro solid 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     text-align: center;
     background: $rojo;
     }
@@ -65,12 +66,12 @@
 
   
   .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 16px;
+    line-height: 45px;
   }
 
   .catalogo-modal .modal-content ul.list-inline {
-    margin-bottom: 2rem;
+    margin-bottom: 16px;
     @include parrafo;
     text-align: left;
     li{

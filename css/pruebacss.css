@@ -90,8 +90,8 @@
 @keyframes banner {
   0% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -101,8 +101,8 @@
     width: 100%; }
   25% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -112,8 +112,8 @@
     width: 100%; }
   26% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -123,8 +123,8 @@
     width: 100%; }
   50% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -134,8 +134,8 @@
     width: 100%; }
   51% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -145,8 +145,8 @@
     width: 100%; }
   75% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -156,8 +156,8 @@
     width: 100%; }
   76% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -167,8 +167,8 @@
     width: 100%; }
   100% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -181,7 +181,7 @@
   position: fixed;
   right: 0;
   top: 28%;
-  font-size: 0.8rem;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -191,7 +191,7 @@
   position: fixed;
   right: 0;
   top: 35%;
-  font-size: 0.8rem;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -199,7 +199,7 @@
 
 .bi-layout-text-sidebar {
   color: #FFFFFF;
-  padding: .5rem;
+  padding: 8px;
   display: flex;
   transition: all .5s;
   border: #FFFFFF; }
@@ -207,73 +207,73 @@
 div .sidebar .bi-whatsapp {
   background: #4dc247;
   color: #FFFFFF;
-  padding: .5rem;
+  padding: 8px;
   display: flex;
   transition: all .5s; }
 
 div .sidebar .bi-facebook {
   background: #2E406E;
   color: #FFFFFF;
-  padding: .5rem;
+  padding: 8px;
   display: flex;
   transition: all .5s; }
 
 div .sidebar .bi-geo-alt {
   background: #212529;
   color: #FFFFFF;
-  padding: .5rem;
+  padding: 8px;
   display: flex;
   transition: all .5s; }
 
 div .sidebar .bi-house {
   background: #8F3029;
   color: #FFFFFF;
-  padding: .5rem;
+  padding: 8px;
   display: flex;
   transition: all .5s; }
 
 div .sidebar .bi-instagram {
   background: #FD1D1D;
   color: #FFFFFF;
-  padding: .5rem;
+  padding: 8px;
   display: flex;
   transition: all .5s; }
 
 div .sidebar .bi:first-child {
-  border-radius: 1rem 0 0 0; }
+  border-radius: 16px 0 0 0; }
 
 div .sidebar .bi:last-child {
-  border-radius: 0 0 0 1rem; }
+  border-radius: 0 0 0 16px; }
 
 div .sidebar .bi-facebook:hover {
-  padding-right: 3rem;
-  border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+  padding-right: 45px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
 
 div .sidebar .bi-geo-alt:hover {
-  padding-right: 3rem;
-  border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+  padding-right: 45px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
 
 div .sidebar .bi-house:hover {
-  padding-right: 3rem;
-  border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+  padding-right: 45px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
 
 div .sidebar .bi-instagram:hover {
-  padding-right: 3rem;
-  border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+  padding-right: 45px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
 
 div .sidebar .bi-whatsapp:hover {
-  padding-right: 3rem;
-  border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+  padding-right: 45px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
 
 div .sidebar .bi-layout-text-sidebar:hover {
-  padding-right: 3rem;
-  border-radius: 1rem 0 0 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+  padding-right: 45px;
+  border-radius: 16px 0 0 16px;
+  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
 
 @keyframes derecha-izquierda {
   from {
@@ -362,8 +362,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
 @keyframes banner {
   0% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -373,8 +373,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   25% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -384,8 +384,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   26% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -395,8 +395,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   50% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -406,8 +406,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   51% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -417,8 +417,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   75% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -428,8 +428,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   76% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -439,8 +439,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
     width: 100%; }
   100% {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 96px;
+    padding-bottom: 96px;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -478,8 +478,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -494,8 +494,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-nosotros.jpg);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -509,8 +509,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-carta.jpg);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -524,8 +524,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-cerveza.jpg);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -539,8 +539,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-contacto.jpg);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -586,18 +586,28 @@ h1, h2, h3, h4, h5, h6 {
   width: 180px;
   animation: bounceIn  3s linear; }
 
+hr {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: #DFAE43 solid 5px;
+  height: 30px;
+  width: 50%; }
+
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
 .index__titulo {
-  font-size: 2.8rem;
-  margin: 1rem;
+  font-size: 40px;
+  margin: 16px;
   justify-content: center;
   transition: font-size 3s ease-in;
   animation-delay: 3s;
   animation-name: pulse; }
 
 .index__titulo:hover {
-  font-size: 3rem; }
+  font-size: 45px; }
 
 .index__boton {
   text-decoration: none;
@@ -610,6 +620,11 @@ h1, h2, h3, h4, h5, h6 {
 .index__boton:hover {
   background-color: #FFFFFF;
   color: #212529; }
+
+.index__card {
+  border-radius: 2em; }
+  .index__card img {
+    border-radius: 32px 32px 0px 0px; }
 
 .card {
   background: none;
@@ -635,7 +650,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 576px) {
   .main__parrafo {
-    font-size: 0.8rem; } }
+    font-size: 12px; } }
 
 .main__video {
   position: relative;
@@ -644,7 +659,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   margin: 10px 10px 10px 10px;
   border-radius: 10px;
-  box-shadow: 20px 5px 10px #212529; }
+  box-shadow: 0px 34px 32px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 34px 32px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 34px 32px -2px rgba(0, 0, 0, 0.75); }
 
 .main__video iframe,
 .main__video object,
@@ -664,10 +681,10 @@ h1, h2, h3, h4, h5, h6 {
 /*Fin de Estilos Nosotros*/
 /*Inicio estilos nuestra carta*/
 .bi-plus-lg {
-  font-size: 2rem; }
+  font-size: 16px; }
 
 #catalogo .catalogo-item {
-  max-width: 26rem;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -676,7 +693,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0 auto; }
   #catalogo .catalogo-item .catalogo-link img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: #DFAE4370 solid; }
 
 #catalogo .catalogo-item .catalogo-link .catalogo-hover {
   display: flex;
@@ -691,19 +709,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: opacity ease-in-out 0.50s; }
 
 #catalogo .catalogo-item .catalogo-link .catalogo-hover .catalogo-hover-content {
-  font-size: 1.25rem;
+  font-size: 20px;
   color: white; }
 
 #catalogo .catalogo-item .catalogo-link:hover .catalogo-hover {
   opacity: 10; }
 
 #catalogo .catalogo-item .catalogo-caption {
-  padding: 1.5rem;
+  padding: 24px;
   text-align: center;
   background-color: #8F3029; }
 
 #catalogo .catalogo-item .catalogo-caption .catalogo-caption-heading {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-family: "Roboto Slab", serif;
   color: #FFFFFF; }
 
@@ -711,18 +729,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 50%;
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   border-radius: 6px;
-  border: #DFAE43 solid 0.5rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  border: #DFAE43 solid 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-align: center;
   background: #8F3029; }
 
 .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
-  font-size: 2rem;
-  line-height: 3rem; }
+  font-size: 16px;
+  line-height: 45px; }
 
 .catalogo-modal .modal-content ul.list-inline {
-  margin-bottom: 2rem;
+  margin-bottom: 16px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #FFFFFF;
@@ -757,7 +775,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  box-shadow: 20px 5px 10px #212529; }
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0); }
   #carrusel-cerveza .carousel-caption p {
     font-size: 20px;
     text-shadow: 2px 2px 3px #101112; }
@@ -765,33 +784,34 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px; }
 
 .birra-platos {
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
   text-align: center; }
 
 .birra-platos img {
-  width: 15rem;
-  height: 14.5rem;
+  width: 240px;
+  height: 232px;
   border: #DFAE4370 5px solid; }
 
 .birra-platos h4 {
-  margin-top: 1.5rem;
+  margin-top: 24px;
   margin-bottom: 1; }
 
 .birra-platos p {
-  margin-top: 1rem; }
+  margin-top: 16px; }
 
 /*Fin Estilos Cerveza*/
 /*Inicio Estilos contacto*/
-.bi-telephone, .bi-geo-fill {
-  font-size: 1.5em;
+.bi-telephone, .bi-geo-fill, .bi-alarm {
+  font-size: 24px;
   color: #FFFFFF;
-  text-shadow: 1px 1px 2px #101112; }
+  text-shadow: 1px 1px 2px #101112;
+  margin-right: 16px; }
 
 .contacto p a {
   text-decoration: none; }
   .contacto p a .bi-whatsapp, .contacto p a .bi-facebook, .contacto p a .bi-instagram {
     font-size: 1.5em;
-    padding: 0em 0.1em 0em 0.1em;
+    padding: 0px 2px 0px 2px;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #101112;
     transition: all 0.5s linear; }
@@ -800,25 +820,25 @@ h1, h2, h3, h4, h5, h6 {
 
 p a {
   text-decoration: none;
-  padding: 1em 1em; }
+  padding: 16px 16px; }
   p a .bi-whatsapp:hover {
-    font-size: 2em;
+    font-size: 32px;
     color: #FFFFFF;
     background: #4dc247; }
 
 p a {
   text-decoration: none;
-  padding: 1em 1em; }
+  padding: 16px 16px; }
   p a .bi-facebook:hover {
-    font-size: 2em;
+    font-size: 32px;
     color: #FFFFFF;
     background: #3b5998; }
 
 p a {
   text-decoration: none;
-  padding: 1em 1em; }
+  padding: 16px 16px; }
   p a .bi-instagram:hover {
-    font-size: 2em;
+    font-size: 32px;
     color: #FFFFFF;
     background: #fd1d1d; }
 
@@ -842,7 +862,9 @@ label {
   overflow: hidden;
   margin: 10px 10px 10px 10px;
   border-radius: 10px;
-  box-shadow: 20px 5px 10px #212529; }
+  box-shadow: 0px 34px 32px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 34px 32px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 34px 32px -2px rgba(0, 0, 0, 0.75); }
 
 .main__mapa iframe,
 .main__mapa object,

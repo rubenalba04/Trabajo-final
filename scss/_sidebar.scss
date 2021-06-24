@@ -6,7 +6,7 @@
 	position: fixed;
 	right: 0;
 	top: 28%;
-	font-size: 0.8rem;
+	font-size: 12px ;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -18,7 +18,7 @@
 	position: fixed;
 	right: 0;
 	top: 35%;
-	font-size: 0.8rem;
+	font-size: 12px ;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -56,11 +56,11 @@ div .sidebar .bi-instagram {
 }
 
 div .sidebar .bi:first-child {
-	border-radius: 1rem 0 0 0;
+	border-radius: 16px 0 0 0;
 }
 
 div .sidebar .bi:last-child {
-	border-radius: 0 0 0 1rem;
+	border-radius: 0 0 0 16px;
 }
 
 div .sidebar .bi-facebook:hover{
