@@ -42,7 +42,6 @@
         justify-content: center;
         background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(../img/fondos/fondo-carta.jpg);
         @include fondos;
-        border: $oro 0.5rem solid;
     }
     
     .header_cerveza{
@@ -68,7 +67,6 @@
     
     footer{
         background: $gris;
-        border: solid 2px $negro;
     }
     
     /*fin background*/
@@ -140,7 +138,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
         box-shadow: $sombra;
-        border: 5px solid $rojo;
+        border: $orosuave 5px solid;
     }
     
     
@@ -226,7 +224,7 @@
     .birra-platos img {
         width: 15rem;
         height: 14.5rem;
-        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+        border: $orosuave 5px solid;
     }
     
     .birra-platos h4 {

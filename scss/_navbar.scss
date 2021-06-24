@@ -2,6 +2,7 @@
 @import"mixin";
 @import"animaciones";
 
+
 .navbar{
     background:none;
     font-family: $roboto;
@@ -9,7 +10,6 @@
     margin: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 5px $blanco;
     animation-duration: 3s;
     animation-name: bounceInRight;
 }
@@ -19,7 +19,7 @@
         .nav-link {
             color: #FCEFEF;
             text-shadow: $sombratexto;
-            font-size: 1em;
+            font-size: 1.2em;
             transition:all 0.8s ease-in;
             padding: auto;
             }
@@ -30,7 +30,7 @@
 .navbar-nav{
     .nav-item{
         .nav-link:hover{
-        font-size: 1.3em;
+        font-size: 1.5em;
         color: $oro;
         text-decoration:underline 1px  $oro;
         }
