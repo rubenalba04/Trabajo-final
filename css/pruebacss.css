@@ -462,12 +462,12 @@ div .sidebar .bi-layout-text-sidebar:hover {
 .navbar-nav .nav-item .nav-link {
   color: #FCEFEF;
   text-shadow: 1px 1px 2px #101112;
-  font-size: 1.2em;
+  font-size: 20px;
   transition: all 0.8s ease-in;
   padding: auto; }
 
 .navbar-nav .nav-item .nav-link:hover {
-  font-size: 1.5em;
+  font-size: 25px;
   color: #DFAE43;
   text-decoration: underline 1px #DFAE43; }
 
@@ -559,13 +559,15 @@ footer {
 /*Inicio Estilos titulos y parrafos*/
 p {
   font-family: "Open Sans", sans-serif;
+  font-size: 15px;
   text-align: center;
   color: #FFFFFF;
   letter-spacing: 2px;
   word-spacing: 2px;
   padding: auto; }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-size: 50px;
   color: #FFFFFF;
   text-align: center;
   font-weight: bolder;
@@ -574,9 +576,51 @@ h1, h2, h3, h4, h5, h6 {
   animation-name: bounceInLeft;
   animation-duration: 3s; }
 
-.footer p {
-  margin: 2px 2px;
-  padding: auto; }
+h2 {
+  font-size: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
+
+h3 {
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
+
+h4 {
+  font-size: 35px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
+
+h5 {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
+
+.footer {
+  height: 64px; }
+  .footer p {
+    margin: 2px 2px;
+    padding: auto; }
 
 /*Fin Estilos titulos y parrafos*/
 /*Inicio Estilos generales*/
@@ -599,7 +643,7 @@ hr {
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
 .index__titulo {
-  font-size: 40px;
+  font-size: 50px;
   margin: 16px;
   justify-content: center;
   transition: font-size 3s ease-in;
@@ -607,7 +651,7 @@ hr {
   animation-name: pulse; }
 
 .index__titulo:hover {
-  font-size: 45px; }
+  font-size: 55px; }
 
 .index__boton {
   text-decoration: none;
@@ -622,9 +666,9 @@ hr {
   color: #212529; }
 
 .index__card {
-  border-radius: 2em; }
+  border-radius: 20px; }
   .index__card img {
-    border-radius: 32px 32px 0px 0px; }
+    border-radius: 0px 0px 20px 20px; }
 
 .card {
   background: none;
@@ -646,11 +690,11 @@ hr {
 
 @media (max-width: 768px) {
   .main__parrafo {
-    font-size: 1rem; } }
+    font-size: 18; } }
 
 @media (max-width: 576px) {
   .main__parrafo {
-    font-size: 12px; } }
+    font-size: 15px; } }
 
 .main__video {
   position: relative;
@@ -742,6 +786,7 @@ hr {
 .catalogo-modal .modal-content ul.list-inline {
   margin-bottom: 16px;
   font-family: "Open Sans", sans-serif;
+  font-size: 15px;
   text-align: center;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -849,6 +894,7 @@ p a {
 
 label {
   font-family: "Open Sans", sans-serif;
+  font-size: 15px;
   text-align: center;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -875,4 +921,4 @@ label {
   width: 100%;
   height: 100%; }
 
-/*Fin Estilos contacto*/
+/*fin Estilos contacto*/

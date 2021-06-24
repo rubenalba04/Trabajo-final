@@ -77,13 +77,46 @@
         @include parrafo;
     }
     
-    h1,h2,h3,h4,h5,h6{
+    h1{
+    font-size: 50px;
     @include titulos;
     animation-name: bounceInLeft;
     animation-duration: 3s;
     }
     
+    h2{
+        font-size: 45px;
+        @include titulos;
+        animation-name: bounceInLeft;
+        animation-duration: 3s;
+        }
+    
+    h3{
+    font-size: 40px;
+    @include titulos;
+    animation-name: bounceInLeft;
+    animation-duration: 3s;
+    }
+    
+    h4{
+        font-size: 35px;
+        @include titulos;
+        animation-name: bounceInLeft;
+        animation-duration: 3s;
+        }
+        
+    h5{
+        font-size: 30px;
+        @include titulos;
+        animation-name: bounceInLeft;
+        animation-duration: 3s;
+        }
+    
+    
+    
+    
     .footer{
+        height: 64px;
         p{
             margin:2px 2px;
             padding: auto;
@@ -116,7 +149,7 @@
     /*Inicio estilos Index*/
     
     .index__titulo {
-        font-size: 40px;
+        font-size: 50px;
         margin: 16px;
         justify-content: center;
         transition: font-size 3s ease-in;
@@ -124,29 +157,29 @@
         animation-name: pulse;
         }
         
-        .index__titulo:hover{
-        font-size: 45px;   
-        }
+    .index__titulo:hover{
+        font-size: 55px;   
+        }   
         
         
-        .index__boton{
-            text-decoration: none;
-            justify-content: center;
-            color: #FFF;
-            border: 1px solid #FFF;
-            text-transform: uppercase;
-            transition: all .3s ease-in-out;
-        }
-        
-        .index__boton:hover{
-            background-color: $blanco;
-            color: $gris;
-        }
+    .index__boton{
+        text-decoration: none;
+        justify-content: center;
+        color: #FFF;
+        border: 1px solid #FFF;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+    }
+    
+    .index__boton:hover{
+        background-color: $blanco;
+        color: $gris;
+    }
     
     .index__card{
-        border-radius: 2em;
+        border-radius: 20px;
             img{
-                border-radius: 32px 32px 0px 0px ;
+                border-radius: 0px 0px 20px 20px  ;
             }
     }
     
@@ -166,6 +199,7 @@
         background-size: cover;
     }
     
+    
     /*Fin estilos Index*/ 
     
     
@@ -178,11 +212,11 @@
     
     @media (max-width: 768px) {
         .main__parrafo{
-        font-size: 1rem;}
+        font-size: 18;}
         }
     @media (max-width: 576px) {
         .main__parrafo{
-        font-size: 12px ;}
+        font-size: 15px ;}
         }
     
     .main__video {
@@ -342,4 +376,5 @@
     .main__mapa embed {
     @include responsive-iframe;
     }
-    /*Fin Estilos contacto*/
+    
+    /*fin Estilos contacto*/

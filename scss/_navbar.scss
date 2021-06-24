@@ -19,7 +19,7 @@
         .nav-link {
             color: #FCEFEF;
             text-shadow: $sombratexto;
-            font-size: 1.2em;
+            font-size: 20px;
             transition:all 0.8s ease-in;
             padding: auto;
             }
@@ -30,7 +30,7 @@
 .navbar-nav{
     .nav-item{
         .nav-link:hover{
-        font-size: 1.5em;
+        font-size: 25px;
         color: $oro;
         text-decoration:underline 1px  $oro;
         }
