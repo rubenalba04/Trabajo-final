@@ -21,9 +21,9 @@
 </head>
 
 <body>
-  <header class="header_nosotros">
+  <header class="header_nosotros"><!-- inicio header -->
   
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-0" id="navegador">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-0" id="navegador"><!-- inicio navegador -->
     <div class="container">
         <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,52 +39,28 @@
             </ul>
         </div>
     </div>
-  </nav>
+  </nav><!-- fin navegador -->
 
-  <section class="container">
+  <div class="container">
     <div class="row my-4">
       <a href="index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
     </div>
     <div class="row">
-      <div class="col-sm-8 col-md-10 col-lg-12 my-4">
-        <h2 class="titulo__nosotros text-uppercase">Nosotros</h2>
-      </div>
+      <h2 class="titulo__nosotros text-uppercase">Nosotros</h2>
     </div>
-  </section>
+  </div>
   
-  <section class="container__sidebar"><!--contenedor sidebar -->
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-    <span><i class="bi bi-layout-text-sidebar"></i></span>
-    </button>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">       
-      <div class="sidebar"> 
-        <a href="index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-house"></i>
-        </a>
-        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-whatsapp"></i>
-        </a>
-        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-geo-alt"></i>
-        </a>
-        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-facebook" ></i>
-        </a>
-        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-instagram"></i> 
-        </a>
-      </div>
-    </div>
-  </section><!-- fin contenedor sidebar -->
+</header> <!-- fin de header -->
   
-</header> <!-- fin contenedor de header -->
-  
-    <hr>
+  <hr>
     
-<main class="main">
-  <section class="container">
+<main class="main"><!-- inicio main -->
+
+  <div class="container"><!-- inicio container de main -->
+  
     <div class="row justify-content-center my-3"><!-- inicio clase row-->
-      <div class="col-sm-12 col-md-8 col-lg-8">
+    
+      <div class="col-sm-10 col-md-10 col-lg-10">
         <h3>Un Poco de Nuestra Historia</h3>
         <p class="main__parrafo">Nuestra historia comienza en un frio invierno de Julio del año 2011… 
         Después de mucho pensar en que tipo de rubro emprenderíamos,
@@ -101,115 +77,204 @@
     </div> <!--se cierra div row-->    
     
     <div class="row justify-content-center"> <!--se abre div row-->  
-      <div class="col-sm-5 col-md-6 col-lg-8">
+      <div class="col-sm-12 col-md-11 col-lg-10">
         <div class="main__video">
           <iframe src="https://www.youtube.com/embed/bezEcserpU0" allowfullscreen></iframe>
         </div>
       </div>
     </div> <!--se cieera div row--> 
     
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4"> <!--se abre div row-cols-->  
+    
       <div class="col">
-        <div class="card">
-          <a href="" data-bs-toggle="modal" data-bs-target="#galeria1">
+        <div class="card"> <!--Card 1--> 
+          <a href="./img/galeria-nosotros/1.jpg" data-bs-toggle="modal" data-bs-target="#galeria1">
             <img src="./img/galeria-nosotros/1.jpg" class="card-img-top" alt="nosotros1">
           </a>
         </div>
       </div>
       
       <div class="col">
-        <div class="card">
-          <a href="" data-bs-toggle="modal" data-bs-target="#galeria2">
+        <div class="card"><!--Card 2--> 
+          <a href="./img/galeria-nosotros/2.jpg" data-bs-toggle="modal" data-bs-target="#galeria2">
             <img src="./img/galeria-nosotros/2.jpg" class="card-img-top" alt="nosotros2">
           </a>
         </div>
       </div>
       
       <div class="col">
-        <div class="card">
-          <a href="" data-bs-toggle="modal" data-bs-target="#galeria3">
+        <div class="card"><!--Card 3--> 
+          <a href="./img/galeria-nosotros/3.jpg" data-bs-toggle="modal" data-bs-target="#galeria3">
             <img src="./img/galeria-nosotros/3.jpg" class="card-img-top" alt="nosotros3">
           </a>
         </div>
       </div>
       
       <div class="col">
-        <div class="card">
-          <a href="" data-bs-toggle="modal" data-bs-target="#galeria4">
+        <div class="card"><!--Card 4--> 
+          <a href="./img/galeria-nosotros/4.jpg" data-bs-toggle="modal" data-bs-target="#galeria4">
             <img src="./img/galeria-nosotros/4.jpg" class="card-img-top" alt="nosotros4">
           </a>
         </div>
       </div>
       
       <div class="col">
-        <div class="card">
-          <a href="" data-bs-toggle="modal" data-bs-target="#galeria5">
+        <div class="card"><!--Card 5--> 
+          <a href="./img/galeria-nosotros/5.jpg" data-bs-toggle="modal" data-bs-target="#galeria5">
             <img src="./img/galeria-nosotros/5.jpg" class="card-img-top" alt="nosotros5">
+          </a>
+        </div>
+      </div> 
+      
+      <div class="col">
+        <div class="card"><!--Card 6--> 
+          <a href="./img/galeria-nosotros/6.jpg" data-bs-toggle="modal" data-bs-target="#galeria6">
+            <img src="./img/galeria-nosotros/6.jpg" class="card-img-top" alt="nosotros6">
           </a>
         </div>
       </div>
       
       <div class="col">
-        <div class="card">
-          <a href="" data-bs-toggle="modal" data-bs-target="#galeria6">
-            <img src="./img/galeria-nosotros/6.jpg" class="card-img-top" alt="nosotros6">
+        <div class="card"><!--Card 7--> 
+          <a href="./img/galeria-nosotros/7.jpg" data-bs-toggle="modal" data-bs-target="#galeria7">
+            <img src="./img/galeria-nosotros/7.jpg" class="card-img-top" alt="nosotros7">
           </a>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card"><!--Card 8--> 
+          <a href="./img/galeria-nosotros/8.jpg" data-bs-toggle="modal" data-bs-target="#galeria8">
+            <img src="./img/galeria-nosotros/8.jpg" class="card-img-top" alt="nosotros8">
+          </a>
+        </div>
+      </div> 
+      
+      <div class="col">
+        <div class="card"><!--Card 9--> 
+          <a href="./img/galeria-nosotros/9.jpg" data-bs-toggle="modal" data-bs-target="#galeria9">
+            <img src="./img/galeria-nosotros/9.jpg" class="card-img-top" alt="nosotros9">
+          </a>
+        </div>
+      </div>
+      
+    </div><!--se cierra div row-cols--> 
+    
+    <!-- Inicio Ventanas modales de imagen-->
+    <!-- Modal 1-->
+    <div class="modal fade" id="galeria1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
+          <img src="./img/galeria-nosotros/1.jpg" class="img-fluid rounded" alt="nosotros1">
         </div>
       </div>
     </div>
     
-      <!-- Modal 1-->
-      <div class="modal fade" id="galeria1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-dialog modal-lg modal-dialog-center" role="document">
-          <img src="./img/galeria-nosotros/1.jpg" class="img-fluid" alt="nosotros1">
-        </div>
-      </div>
-      <!-- Modal 2-->
-      <div class="modal fade" id="galeria2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-dialog modal-lg modal-dialog-center" role="document">
+    <!-- Modal 2-->
+    <div class="modal fade" id="galeria2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
           <img src="./img/galeria-nosotros/2.jpg" class="img-fluid rounded" alt="nosotros2">
         </div>
       </div>
-      <!-- Modal 3-->
-      <div class="modal fade" id="galeria3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-dialog modal-lg modal-dialog-center" role="document">
+    </div>
+    
+    <!-- Modal 3-->
+    <div class="modal fade" id="galeria3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
           <img src="./img/galeria-nosotros/3.jpg" class="img-fluid rounded" alt="nosotros3">
         </div>
       </div>
-      <!-- Modal 4-->
-      <div class="modal fade" id="galeria4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-dialog modal-lg modal-dialog-center" role="document">
+    </div>
+    
+    <!-- Modal 4-->
+    <div class="modal fade" id="galeria4" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
           <img src="./img/galeria-nosotros/4.jpg" class="img-fluid rounded" alt="nosotros4">
         </div>
       </div>
-      <!-- Modal 5-->
-      <div class="modal fade" id="galeria5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-dialog modal-lg modal-dialog-center" role="document">
+    </div>
+    
+    <!-- Modal 5-->
+    <div class="modal fade" id="galeria5" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
           <img src="./img/galeria-nosotros/5.jpg" class="img-fluid rounded" alt="nosotros5">
         </div>
       </div>
-      <!-- Modal 6-->
-      <div class="modal fade" id="galeria6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="modal-dialog modal-lg modal-dialog-center" role="document">
+    </div>
+    
+    <!-- Modal 6-->
+    <div class="modal fade" id="galeria6" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
           <img src="./img/galeria-nosotros/6.jpg" class="img-fluid rounded" alt="nosotros6">
         </div>
       </div>
-
-  </section>
-</main>
+    </div>
+    
+    <!-- Modal 7-->
+    <div class="modal fade" id="galeria7" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
+          <img src="./img/galeria-nosotros/7.jpg" class="img-fluid rounded" alt="nosotros7">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal 8-->
+    <div class="modal fade" id="galeria8" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
+          <img src="./img/galeria-nosotros/8.jpg" class="img-fluid rounded" alt="nosotros8">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal 6-->
+    <div class="modal fade" id="galeria9" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content modal-img">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>    
+          <img src="./img/galeria-nosotros/9.jpg" class="img-fluid rounded" alt="nosotros9">
+        </div>
+      </div>
+    </div>
+    <!-- fin Ventanas modales de imagen-->
+    
+  </div><!-- inicio container de main -->
+  
+</main><!-- fin de main -->
   
   
 <!--aqui arranca el footer -->
 <footer class="footer">
-  <section class="container">
-    <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
-  </section>
+  <div class="container">
+    <div class="text-center">
+      <!-- Facebook -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" role="button"> <i class="bi bi-facebook"></i></a>
+      <!-- Whatsapp -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="http://api.whatsapp.com/send?phone=3863534208" nrole="button"><i class="bi bi-whatsapp"></i></a>
+      <!-- Instagram -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.instagram.com/don_enrique_beer/?hl=es" role="button"><i class="bi bi-instagram"></i ></a>
+      </div>
+  </div>
+  <hr>
+  <!-- Copyright -->
+  <p class="text-center">
+    © 2021 Copyright - Don Enrique beer & food Todos los derechos reservados
+  </p>
+  <!-- Copyright -->
 </footer>
 <!--aqui termina el footer -->
   

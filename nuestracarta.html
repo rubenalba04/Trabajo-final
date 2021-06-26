@@ -21,9 +21,9 @@
 </head>
 <body>
 
-<header class="header_carta">
+<header class="header_carta"><!-- inicio header -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-0" id="navegador">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-0" id="navegador"><!-- inicio navegador -->
     <div class="container">
         <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,58 +39,32 @@
             </ul>
         </div>
     </div>
-  </nav>
+  </nav><!-- fin navegador -->
   
-  <section class="container">
+  <div class="container"><!-- inicio contenedor de logo y encabezado -->
     <div class="row my-4 ">
       <a href="index.html"><img src="logos/logo.png" class="logo" alt="logo del sitio"></a>
     </div>
     <div class="row">
       <h2 class="titulo__carta text-uppercase">Nuestra Carta</h2>
     </div>
-  </section>
-
-  <section class="container__sidebar"><!--contenedor sidebar -->
-      <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      <span><i class="bi bi-layout-text-sidebar"></i></span>
-      </button>
+  </div><!-- fin contenedor de logo y encabezado -->
   
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">       
-      <div class="sidebar"> 
-        <a href="index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-house"></i>
-        </a>
-        <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-whatsapp"></i>
-        </a>
-        <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-geo-alt"></i>
-        </a>
-        <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-facebook" ></i>
-        </a>
-        <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-          <i class="bi bi-instagram"></i> 
-        </a>
-      </div>
-    </div>
-  </section><!-- fin contenedor sidebar -->
+</header> <!-- fin de header -->
 
-</header> <!-- fin contenedor de header -->
+  <hr>
 
-<hr>
+<main class="main"><!-- inicio main -->
 
-<main class="main">
-
-  <section class="container">
+  <div class="container"><!-- inicio container de main -->
   
-    <!-- catalogo-->
-    <section id="catalogo">
+    <div id="catalogo"><!-- Inicio catalogo Nuestra Carta-->
       <div class="row">
-        <h4>Hecha un vistazo a nuestro menú</h4>
+        <h3>Hecha un vistazo a nuestro menú</h3>
       </div>
       
       <div class="row my-4"><!-- se abre div clase row-->
+      
         <!-- catalogoitem 1-->
         <div class="col-lg-4 col-sm-6 mb-4"><!-- se abre div clase col-->
           <div class="catalogo-item sandwichs">
@@ -105,7 +79,7 @@
             </div>
           </div>
         </div><!-- se cierra div clase col-->
- 
+
         <!-- catalogoitem 2-->
         <div class="col-lg-4 col-sm-6 mb-4"><!-- se abre div clase col-->
           <div class="catalogo-item burgers">
@@ -187,22 +161,30 @@
       <!-- catalogo Modals-->
       <!-- catalogo item 1 modal popup-->
       <div class="catalogo-modal modal fade" id="catalogoModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="modal-body">
                       <!-- Project details-->
-                      <h2 class="text-uppercase">Sandwichs</h2>
-                        <ul class="list-inline">
-                            <li>Milanesa: Común-Especial</li>
-                            <li>Lomito: Común-Especial</li>
-                            <li>Tostados:</li>
+                      <h4 class="text-uppercase">Sandwichs</h4>
+                          <p>De Milanesa</p>
+                            <ul>
+                              <li>Común</li>
+                              <li>Especial (Con huevo, jamón y papas)</li>
+                            </ul>
+                          <p>Lomitos</p>
+                            <ul>
+                              <li>Común</li>
+                              <li>Especial (Con huevo, queso, jamón y papas)</li>
+                            </ul>
+                          <p>Tostados en Miga</p>
+                            <ul>
                               <li>Ternera y Queso</li>
-                              <li>Jamon y queso</li>
-                        </ul>
-                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                              <li>Jamón y Queso</li>
+                            </ul>
+                        <button class="btn btn-dark" data-bs-dismiss="modal" type="button">
                           Cerrar
                         </button>
                     </div>
@@ -215,25 +197,23 @@
       
       <!-- catalogo item 2 modal popup-->
       <div class="catalogo-modal modal fade" id="catalogoModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-sm-12 col-md-12 col-lg-8">
-                    <div class="modal-body">
+                    <div class="modal-body">                          
                       <!-- Project details-->
-                      <h2 class="text-uppercase">Hamburguesas</h2>
-                        <ul class="list-inline">
-                          <li>Single</li>
-                          <li>Especial</li>
-                          <li>Pecadora</li>
-                          <li>Don Roque</li>
-                          <li>Don Enrique</li>
-                          <li>Matambrito</li>
-                        </ul>
-                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                          Cerrar
-                        </button>
+                      <h4 class="text-uppercase">Hamburguesas</h4>
+                        <li>Single</li>
+                        <li>Especial</li>
+                        <li>Pecadora</li>
+                        <li>Don Roque</li>
+                        <li>Don Enrique</li>
+                        <li>Matambrito</li>
+                    <button class="btn btn-dark" data-bs-dismiss="modal" type="button">
+                      Cerrar
+                    </button>
                     </div>
                   </div>
                 </div>
@@ -244,32 +224,31 @@
     
       <!-- catalogo item 3 modal popup-->
       <div class="catalogo-modal modal fade" id="catalogoModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="modal-body">
                       <!-- Project details-->
-                      <h2 class="text-uppercase">Papas</h2>
-                        <ul class="list-inline">
-                          <li>Clásicas
-                            <ol>
-                                <li>Porción Chica</li>
-                                <li>Porción Grande</li>
-                            </ol>
-                        </li>
-                        <li>Con Cheddar: Chicas/Grandes
-                            <ol>
-                                <li>Porción Chica</li>
-                                <li>Porción Grande</li>
-                            </ol>
-                        </li>
-                        <li>Papas Don Enrique</li>
+                      <h4 class="text-uppercase">Papas Fritas</h4>
+                      <p>Clásicas</p>
+                        <ul>
+                          <li>Porción Chica</li>
+                          <li>Porción Grande</li>
                         </ul>
-                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                          Cerrar
-                        </button>
+                      <p>Con Cheddar</p>
+                        <ul>
+                          <li>Porción Chica</li>
+                          <li>Porción Grande</li>
+                        </ul>
+                      <p>Papas Don Enrique</p>
+                        <ul>
+                          <li>Papas fritas con cheddar, baccon asado y cebollita de verdeo</li>
+                        </ul>
+                    <button class="btn btn-dark" data-bs-dismiss="modal" type="button">
+                      Cerrar
+                    </button>
                     </div>
                   </div>
                 </div>
@@ -280,29 +259,27 @@
         
       <!-- catalogo item 4 modal popup-->
       <div class="catalogo-modal modal fade" id="catalogoModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="modal-body">
                       <!-- Project details-->
-                      <h2 class="text-uppercase">Pizzas</h2>
-                        <ul class="list-inline">
-                          <li>Muzza</li>
-                          <li>Jamon y Morron</li>
-                          <li>Napolitana</li>
-                          <li>Fugazzeta</li>
-                          <li>Roquefort</li>
-                          <li>Calabresa</li>
-                          <li>Choclo y Huevo</li>
-                          <li>Rúcula y Jamon Crudo</li>
-                          <li>Ternera</li>
-                          <li>Don Enrique</li>
-                        </ul>
-                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                          Cerrar
-                        </button>
+                      <h4 class="text-uppercase">Pizzas</h4>
+                      <li>Muzza</li>
+                      <li>Jamon y Morron</li>
+                      <li>Napolitana</li>
+                      <li>Fugazzeta</li>
+                      <li>Roquefort</li>
+                      <li>Calabresa</li>
+                      <li>Choclo y Huevo</li>
+                      <li>Rúcula y Jamon Crudo</li>
+                      <li>Ternera</li>
+                      <li>Don Enrique</li>
+                    <button class="btn btn-dark" data-bs-dismiss="modal" type="button">
+                      Cerrar
+                    </button>
                     </div>
                   </div>
                 </div>
@@ -313,22 +290,20 @@
       
       <!-- catalogo item 5 modal popup-->
       <div class="catalogo-modal modal fade" id="catalogoModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
               <div class="container">
                 <div class="row align-items-center justify-content-center">
                   <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="modal-body">
                       <!-- Project details-->
-                      <h2 class="text-uppercase">Otros Platos</h2>
-                        <ul class="list-inline">
-                          <li>Milanesa a la napolitana</li>
-                          <li>Mexicano</li>
-                          <li>Lomo pizza</li>
-                        </ul>
-                        <button class="btn btn-dark btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                          Cerrar
-                        </button>
+                      <h4 class="text-uppercase">Otros Platos</h4>
+                      <li>Milanesa a la napolitana</li>
+                      <li>Mexicano</li>
+                      <li>Lomo pizza</li>
+                      <button class="btn btn-dark" data-bs-dismiss="modal" type="button">
+                        Cerrar
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -339,49 +314,37 @@
 
       <!-- catalogo item 6 modal popup-->
       <div class="catalogo-modal modal fade" id="catalogoModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-sm-12 col-md-12 col-lg-8">
                     <div class="modal-body">
                       <!-- Project details-->
-                      <h2 class="text-uppercase">Bebidas</h2>
-                        <ul class="list-inline">
-                            <li>Linea Coca de 1lt
-                                <ol>
-                                    <li>Coca Cola</li>
-                                    <li>Fanta</li>
-                                    <li>sprite</li>
-                                </ol>
-                            </li>
-                            <li>Linea Coca de 500ml
-                                <ol>
-                                    <li>Coca Cola</li>
-                                    <li>Fanta</li>
-                                    <li>sprite</li>
-                                </ol>
-                            </li>
-                            <li>Agua Saborizada 1,5lt</li>
-                            <li>Agua Mineral 500 ml</li>
+                      <h4 class="text-uppercase">Bebidas</h4>
+                      <p>Gaseosas</p>
+                        <ul>
+                          <li>Coca Cola</li>
+                          <li>Fanta</li>
+                          <li>sprite</li>
                         </ul>
-                        
-                        <h5>Cerveza</h5>
-                        <ul class="list-inline">
-                            <li>Quilmes 1lt</li>
-                            <li>Salta Rubia/Negra 1lt</li>
-                            <li>Artesanal: 
-                                <ol>
-                                    <li>Honey</li>
-                                    <li>IPA</li>
-                                    <li>Golden</li>
-                                    <li>Lager</li>    
-                                </ol>
-                            </li>
+                      <p>Aguas y Sodas</p>
+                        <ul>
+                          <li>Agua Saborizada 1,5lt</li>
+                          <li>Agua Mineral y Soda 500 ml</li>
                         </ul>
-                        <button class="btn boton__modal" data-bs-dismiss="modal" type="button">
-                          Cerrar
-                        </button>
+                      <p>Bebidas Alcohol</p>
+                        <ul>
+                          <li>Quilmes</li>
+                          <li>Salta Rubia/Negra</li>
+                          <li>Patagonia</li>
+                          <li>Budweizer</li>
+                          <li>Artesanal</li>
+                          <li>Vino 3/4</li>
+                        </ul>
+                    <button class="btn btn-dark" data-bs-dismiss="modal" type="button">
+                      Cerrar
+                    </button>
                     </div>
                   </div>
                 </div>
@@ -389,15 +352,32 @@
           </div>
         </div>
       </div>
-    </section><!-- se cierra section clase catalogo-->  
-  </section> <!-- se cierra section container -->
-</main> <!-- se cierra main -->  
+      
+    </div><!-- Fin catalogo Nuestra Carta--> 
+    
+  </div> <!-- Fin container de main -->
+  
+</main><!-- fin de main --> 
 
 <!--aqui arranca el footer -->
 <footer class="footer">
-  <section class="container-fluid">
-    <p class="footer__titulo">© 2021 Copyright - Don Enrique beer & food Todos los derechos reservados</p>
-  </section>
+  <div class="container">
+    <div class="text-center">
+      <!-- Facebook -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" role="button"> <i class="bi bi-facebook"></i></a>
+      <!-- Whatsapp -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="http://api.whatsapp.com/send?phone=3863534208" nrole="button"><i class="bi bi-whatsapp"></i></a>
+      <!-- Instagram -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.instagram.com/don_enrique_beer/?hl=es" role="button"><i class="bi bi-instagram"></i ></a>
+      </div>
+  </div>
+
+  <hr>
+  <!-- Copyright -->
+  <p class="text-center">
+    © 2021 Copyright - Don Enrique beer & food Todos los derechos reservados
+  </p>
+  <!-- Copyright -->
 </footer>
 <!--aqui termina el footer -->
   

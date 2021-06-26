@@ -87,194 +87,6 @@
   100% {
     transform: translateX(0%); } }
 
-@keyframes banner {
-  0% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  25% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  26% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  50% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  51% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  75% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  76% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  100% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; } }
-
-.container__sidebar > button {
-  position: fixed;
-  right: 0;
-  top: 28%;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  z-index: 100; }
-
-.sidebar {
-  position: fixed;
-  right: 0;
-  top: 35%;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  z-index: 100; }
-
-.bi-layout-text-sidebar {
-  color: #FFFFFF;
-  padding: 8px;
-  display: flex;
-  transition: all .5s;
-  border: #FFFFFF; }
-
-div .sidebar .bi-whatsapp {
-  background: #4dc247;
-  color: #FFFFFF;
-  padding: 8px;
-  display: flex;
-  transition: all .5s; }
-
-div .sidebar .bi-facebook {
-  background: #2E406E;
-  color: #FFFFFF;
-  padding: 8px;
-  display: flex;
-  transition: all .5s; }
-
-div .sidebar .bi-geo-alt {
-  background: #212529;
-  color: #FFFFFF;
-  padding: 8px;
-  display: flex;
-  transition: all .5s; }
-
-div .sidebar .bi-house {
-  background: #8F3029;
-  color: #FFFFFF;
-  padding: 8px;
-  display: flex;
-  transition: all .5s; }
-
-div .sidebar .bi-instagram {
-  background: #FD1D1D;
-  color: #FFFFFF;
-  padding: 8px;
-  display: flex;
-  transition: all .5s; }
-
-div .sidebar .bi:first-child {
-  border-radius: 16px 0 0 0; }
-
-div .sidebar .bi:last-child {
-  border-radius: 0 0 0 16px; }
-
-div .sidebar .bi-facebook:hover {
-  padding-right: 45px;
-  border-radius: 16px 0 0 16px;
-  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
-
-div .sidebar .bi-geo-alt:hover {
-  padding-right: 45px;
-  border-radius: 16px 0 0 16px;
-  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
-
-div .sidebar .bi-house:hover {
-  padding-right: 45px;
-  border-radius: 16px 0 0 16px;
-  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
-
-div .sidebar .bi-instagram:hover {
-  padding-right: 45px;
-  border-radius: 16px 0 0 16px;
-  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
-
-div .sidebar .bi-whatsapp:hover {
-  padding-right: 45px;
-  border-radius: 16px 0 0 16px;
-  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
-
-div .sidebar .bi-layout-text-sidebar:hover {
-  padding-right: 45px;
-  border-radius: 16px 0 0 16px;
-  box-shadow: 0 0 0.8px rgba(0, 0, 0, 0.42); }
-
 @keyframes derecha-izquierda {
   from {
     margin-left: 100%;
@@ -359,96 +171,6 @@ div .sidebar .bi-layout-text-sidebar:hover {
   100% {
     transform: translateX(0%); } }
 
-@keyframes banner {
-  0% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  25% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  26% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  50% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index2.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  51% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  75% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index3.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  76% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; }
-  100% {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/fondos/fondo-index4.jpg);
-    padding-top: 96px;
-    padding-bottom: 96px;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%; } }
-
 .navbar {
   background: none;
   font-family: "Roboto Slab", serif;
@@ -486,8 +208,7 @@ div .sidebar .bi-layout-text-sidebar:hover {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 100%;
-  animation: banner 24s infinite linear; }
+  width: 100%; }
 
 .header_nosotros {
   display: flex;
@@ -550,7 +271,8 @@ div .sidebar .bi-layout-text-sidebar:hover {
   width: 100%; }
 
 body {
-  background: #8F3029; }
+  background: #8F3029;
+  height: 100vh; }
 
 main {
   margin-bottom: 30px; }
@@ -562,34 +284,15 @@ footer {
 /*Inicio Estilos titulos y parrafos*/
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
   text-align: center;
   color: #FFFFFF;
   letter-spacing: 2px;
   word-spacing: 2px;
-  padding: auto; }
+  padding: auto;
+  animation-name: rollIn;
+  animation-duration: 3s; }
 
 h1 {
-  font-size: 50px;
-  color: #FFFFFF;
-  text-align: center;
-  font-weight: bolder;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 1px 1px 2px #101112;
-  animation-name: bounceInLeft;
-  animation-duration: 3s; }
-
-h2 {
-  font-size: 45px;
-  color: #FFFFFF;
-  text-align: center;
-  font-weight: bolder;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 1px 1px 2px #101112;
-  animation-name: bounceInLeft;
-  animation-duration: 3s; }
-
-h3 {
   font-size: 40px;
   color: #FFFFFF;
   text-align: center;
@@ -599,7 +302,7 @@ h3 {
   animation-name: bounceInLeft;
   animation-duration: 3s; }
 
-h4 {
+h2 {
   font-size: 35px;
   color: #FFFFFF;
   text-align: center;
@@ -609,7 +312,7 @@ h4 {
   animation-name: bounceInLeft;
   animation-duration: 3s; }
 
-h5 {
+h3 {
   font-size: 30px;
   color: #FFFFFF;
   text-align: center;
@@ -619,11 +322,25 @@ h5 {
   animation-name: bounceInLeft;
   animation-duration: 3s; }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 64px; }
+h4 {
+  font-size: 25px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
+
+h5 {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #101112;
+  animation-name: bounceInLeft;
+  animation-duration: 3s; }
 
 /*Fin Estilos titulos y parrafos*/
 /*Inicio Estilos generales*/
@@ -635,18 +352,23 @@ h5 {
 
 hr {
   display: block;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   border: #DFAE43 solid 5px;
-  height: 30px;
+  height: 10px;
   width: 50%; }
+
+footer {
+  padding-bottom: 16px; }
+  footer i {
+    color: #FFFFFF;
+    font-size: 20px; }
 
 /*Fin Estilos Generales*/
 /*Inicio estilos Index*/
 .index__titulo {
-  font-size: 50px;
   margin: 16px;
   justify-content: center;
   transition: font-size 3s ease-in;
@@ -654,7 +376,37 @@ hr {
   animation-name: pulse; }
 
 .index__titulo:hover {
-  font-size: 55px; }
+  font-size: 45px; }
+
+@media (max-width: 768px) {
+  .index__titulo {
+    font-size: 35; }
+  .index__titulo:hover {
+    font-size: 40px; } }
+
+@media (max-width: 576px) {
+  .index__titulo {
+    font-size: 30px; }
+  .index__titulo:hover {
+    font-size: 35px; } }
+
+@media (max-width: 480px) {
+  .index__titulo {
+    font-size: 25px; }
+  .index__titulo:hover {
+    font-size: 30px; } }
+
+@media (max-width: 768px) {
+  .index__titulo {
+    font-size: 30; } }
+
+@media (max-width: 576px) {
+  .index__titulo2 {
+    font-size: 25px; } }
+
+@media (max-width: 480px) {
+  .index__titulo2 {
+    font-size: 20px; } }
 
 .index__boton {
   text-decoration: none;
@@ -673,8 +425,17 @@ hr {
   .index__card img {
     border-radius: 0px 0px 20px 20px; }
 
-.main__index p {
-  font-size: 18px; }
+@media (max-width: 768px) {
+  p {
+    font-size: 15; } }
+
+@media (max-width: 576px) {
+  p {
+    font-size: 12px; } }
+
+@media (max-width: 480px) {
+  p {
+    font-size: 12px; } }
 
 .card {
   background: none;
@@ -704,6 +465,7 @@ hr {
 /*Fin estilos Index*/
 /*Inicio estilos Nosotros*/
 .main__parrafo {
+  font-size: 20px;
   word-spacing: 5px;
   text-shadow: 2px 2px 3px #101112; }
 
@@ -714,6 +476,10 @@ hr {
 @media (max-width: 576px) {
   .main__parrafo {
     font-size: 15px; } }
+
+@media (max-width: 480px) {
+  .main__parrafo {
+    font-size: 12px; } }
 
 .main__video {
   position: relative;
@@ -735,17 +501,16 @@ hr {
   width: 100%;
   height: 100%; }
 
-#galeria1 .modal-dialog img, #galeria2 .modal-dialog img, #galeria3 .modal-dialog img, #galeria4 .modal-dialog img, #galeria5 .modal-dialog img, #galeria6 .modal-dialog img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20%; }
+.modal-content, .modal-img {
+  background: transparent;
+  border: none; }
+  .modal-content button .btn-close, .modal-img button .btn-close {
+    width: 32px;
+    color: #FFFFFF;
+    background: #DFAE43; }
 
 /*Fin de Estilos Nosotros*/
 /*Inicio estilos nuestra carta*/
-.bi-plus-lg {
-  font-size: 16px; }
-
 #catalogo .catalogo-item {
   max-width: 320px;
   margin-left: auto;
@@ -789,33 +554,15 @@ hr {
   color: #FFFFFF; }
 
 .catalogo-modal .modal-dialog .modal-content {
-  margin-top: 50%;
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   border-radius: 6px;
   border: #DFAE43 solid 8px;
   padding-top: 16px;
   padding-bottom: 16px;
-  text-align: center;
   background: #8F3029; }
 
 .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
-  font-size: 16px;
   line-height: 45px; }
-
-.catalogo-modal .modal-content ul.list-inline {
-  margin-bottom: 16px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  text-align: center;
-  color: #FFFFFF;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  padding: auto;
-  text-align: left; }
-  .catalogo-modal .modal-content ul.list-inline li {
-    list-style: disc; }
-  .catalogo-modal .modal-content ul.list-inline ol {
-    list-style: square; }
 
 .boton__modal {
   justify-content: center;
@@ -826,9 +573,25 @@ hr {
   transition: all .3s ease-in-out;
   cursor: pointer; }
 
-.boton__modal:hover {
-  background-color: #DFAE4370;
-  color: #212529; }
+.bi-plus-lg {
+  font-size: 16px; }
+
+.modal-body {
+  display: block;
+  text-align: center;
+  margin: 1px;
+  padding: 1px; }
+  .modal-body p {
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 0px; }
+  .modal-body ul, .modal-body li {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-left: 10px; }
 
 /*Fin Estilos nuestra carta*/
 /*Inicio estilos Cerveza*/
@@ -913,7 +676,6 @@ p a {
 
 label {
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
   text-align: center;
   color: #FFFFFF;
   letter-spacing: 2px;

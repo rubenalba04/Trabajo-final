@@ -29,13 +29,14 @@
     box-shadow: 20px 5px 10px $gris; 
 }
 
-@mixin listas {
+@mixin ul-li {
+    text-align: left;
     font-family: $opensans;
-    color: $negro;
+    color: $blanco;
     letter-spacing: 2px;
     word-spacing: 2px;
+    padding-left: 10px;
     }
-
 
 @mixin carrusel {
     margin: auto;
@@ -49,7 +50,6 @@
 
 @mixin parrafo{
     font-family: $opensans;
-    font-size: 15px;
     text-align: center;
     color: $blanco;
     letter-spacing: 2px;

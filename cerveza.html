@@ -22,9 +22,9 @@
 
 <body>
 
-<header class="header_cerveza">
+<header class="header_cerveza"><!-- inicio navegador -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-0" id="navegador">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-0 py-0" id="navegador"><!-- inicio navegador -->
     <div class="container">
         <a class="navbar-brand pr-5" href="index.html"><img src="./logos/logo-letra.png" alt="logo_letra"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,189 +40,155 @@
             </ul>
         </div>
     </div>
-  </nav>
+  </nav><!-- fin navegador -->
 
-<section class="container">
-  <div class="row my-4">
-    <a href="index.html"><img src="logos/logo.png" class="logo img-fluid" alt="logo del sitio"></a>
-  </div>
-  <div class="row">
-    <div class="col-sm-8 col-md-10 col-lg-12 my-3">
+  <div class="container">
+    <div class="row my-4">
+      <a href="index.html"><img src="logos/logo.png" class="logo img-fluid" alt="logo del sitio"></a>
+    </div>
+    <div class="row">
       <h2 class="titulo__cerveza text-uppercase">Nuestras Cervezas</h2>
     </div>
   </div>
-</section>
 
-
-<section class="container__sidebar"><!--contenedor sidebar -->
-    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-    <span><i class="bi bi-layout-text-sidebar"></i></span>
-    </button>
-
-  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">       
-    <div class="sidebar"> 
-      <a href="index.html" class="d-block nav-link py-3 border-bottom" title="Inicio" data-bs-toggle="tooltip" data-bs-placement="right">
-        <i class="bi bi-house"></i>
-      </a>
-      <a href="http://api.whatsapp.com/send?phone=3863534208" target="_blank" class="nav-link py-3 border-bottom" title="Whatsapp" data-bs-toggle="tooltip" data-bs-placement="right">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-      <a href="https://g.page/don-enrique-beer-and-food?share" class="nav-link py-3 border-bottom" target="_blank" title="Ubicacion" data-bs-toggle="tooltip" data-bs-placement="right">
-        <i class="bi bi-geo-alt"></i>
-      </a>
-      <a href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" target="_blank" class="nav-link py-3 border-bottom" title="Facebook" data-bs-toggle="tooltip" data-bs-placement="right">
-        <i class="bi bi-facebook" ></i>
-      </a>
-      <a href="https://www.instagram.com/don_enrique_beer/?hl=es" target="_blank" class="nav-link py-3" title="Instagram" data-bs-toggle="tooltip" data-bs-placement="right">
-        <i class="bi bi-instagram"></i> 
-      </a>
-    </div>
-  </div>
-</section><!-- fin contenedor sidebar -->
-
-</header> <!-- fin contenedor de header -->
+</header> <!-- fin de header -->
 
   <hr>
 
-  <main class="main">
-    <section class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div id="carrusel-cerveza" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner mx-auto d-block">
-              <div class="carousel-item active">
-                <img src="./img/carrusel-cerveza/birra-golden.jpg" class="d-block w-100 rounded" alt="golden">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>GOLDEN</h5>
-                  <p>Graduación relativamente baja (entre 3,5 y 5%)</p>
-                  <p>Es lo más parecido a una cerveza clásica, suave, de amargor y alcohol bajos.</p> 
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/carrusel-cerveza/birra-honey.jpg" class="d-block w-100 rounded" alt="honey">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>HONEY</h5>
-                  <p>Graduación normal (entre 4 y 5%)</p>
-                  <p>Contiene miel, lo que la hace más dulce y con mas cuerpo</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/carrusel-cerveza/birra-ipa.jpg" class="d-block w-100 rounded" alt="ipa">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>IPA-ALE</h5>
-                  <p>Graduación alta (entre 6 y 7,5%)</p>
-                  <p>Es una versión de pale ale. Es amarga y puede tener un perfil frutado, floral, cítrico.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/carrusel-cerveza/birra-irish.jpg" class="d-block w-100 rounded" alt="irish">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>IRISH RED</h5>
-                  <p>Graduación relativamente alta (entre 5 y 6%)</p>
-                  <p>Una cerveza rojiza y suave, con amargor bajo y notas de caramelo.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-cerveza" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-cerveza" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
+<main class="main"><!-- inicio main -->
+  <div class="container-fluid"><!-- inicio container de main -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div id="carrusel-cerveza" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carrusel-cerveza" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-        </div> <!--se cierra la clase col carrusel -->
-      </div> <!--se cierra div row carrusel-->
+          <div class="carousel-inner mx-auto d-block">
+            <div class="carousel-item active">
+              <img src="./img/carrusel-cerveza/birra-golden.jpg" class="d-block w-100 rounded" alt="golden">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>GOLDEN</h3>
+                <p>Graduación relativamente baja (entre 3,5 y 5%)</p>
+                <p>Es lo más parecido a una cerveza clásica, suave, de amargor y alcohol bajos.</p> 
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel-cerveza/birra-honey.jpg" class="d-block w-100 rounded" alt="honey">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>HONEY</h3>
+                <p>Graduación normal (entre 4 y 5%)</p>
+                <p>Contiene miel, lo que la hace más dulce y con mas cuerpo</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel-cerveza/birra-ipa.jpg" class="d-block w-100 rounded" alt="ipa">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>IPA-ALE</h3>
+                <p>Graduación alta (entre 6 y 7,5%)</p>
+                <p>Es una versión de pale ale. Es amarga y puede tener un perfil frutado, floral, cítrico.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carrusel-cerveza/birra-irish.jpg" class="d-block w-100 rounded" alt="irish">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>IRISH RED</h3>
+                <p>Graduación relativamente alta (entre 5 y 6%)</p>
+                <p>Una cerveza rojiza y suave, con amargor bajo y notas de caramelo.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-cerveza" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrusel-cerveza" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div> <!--se cierra la clase col carrusel -->
+    </div> <!--se cierra div row carrusel-->
         
-      <div class="row align-content-start justify-content-center"> <!--se abre la clase row -->
-        <div class="col-10"> <!--se abre la clase col -->
-          <div class="main__maridajes">
-              <h3>Los mejores maridajes con cerveza</h3>
-              <p>Acompañar la bebida con un aperitivo es algo habitual.</p>
-              <p>Existe una conexión evidente entre la cerveza y el alimento con el que la tomamos.</p>
-              <p>Sabiendo las propiedades de la cerveza, a esta relación la denominamos maridaje. </p>
-              <p>A continuacion presentamos algunos platos recomendados para acompañar nuestras birras</p>
-          </div>
-        </div> <!--se cierra la clase col -->
+    <div class="row align-content-start justify-content-center"> <!--se abre la clase row -->
+      <div class="col-10"> <!--se abre la clase col -->
+        <div class="main__maridajes">
+            <h3>Los mejores maridajes con cerveza</h3>
+            <p>Acompañar la bebida con un aperitivo es algo habitual.</p>
+            <p>Existe una conexión evidente entre la cerveza y el alimento con el que la tomamos.</p>
+            <p>Sabiendo las propiedades de la cerveza, a esta relación la denominamos maridaje. </p>
+            <p>A continuacion presentamos algunos platos recomendados para acompañar nuestras birras</p>
+        </div>
+      </div> <!--se cierra la clase col -->
+    </div><!--se cierra la clase row -->
+
+    <!-- maridajes-->
+    <div class="row justify-content-center my-4"><!--se abre la clase row -->
+      <div class="col-lg-4">
+        <div class="birra-platos">
+          <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-golden.jpg" alt="golden" />
+          <h4>GOLDEN</h4>
+          <p>* Hamburguesa Don Roque</p>
+          <p>* Hamburguesa Don Enrique</p>
+        </div>
       </div>
-
-        <!-- maridajes-->
-            <div class="row justify-content-center my-4">
-                  <div class="col-lg-4">
-                      <div class="birra-platos">
-                          <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-golden.jpg" alt="golden" />
-                          <h5>GOLDEN</h5>
-                          <p>* Hamburguesa Don Roque</p>
-                          <p>* Hamburguesa Don Enrique</p>
-                      </div>
-                  </div>
-                  
-                  <div class="col-lg-4">
-                    <div class="birra-platos">
-                        <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-honey.jpg" alt="honey" />
-                        <h5>HONEY</h5>
-                        <p>* Papas gratinadas con queso tybo</p>
-                        <p>* Papas gratinadas con queso cheddar</p>
-                    </div>
-                </div>
-            </div>
-              
-            <div class="row justify-content-center">
-                  <div class="col-lg-4">
-                    <div class="birra-platos">
-                        <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-ipa.jpg" alt="ipa" />
-                        <h5>IPA-ALE</h5>
-                        <p>* Papas Fritas</p>
-                        <p>* Hamburguesa Don Enrique</p>
-                    </div>
-                  </div>
-              <div class="col-lg-4">
-                  <div class="birra-platos">
-                      <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-irish.jpg" alt="irish" />
-                      <h5>IRISH</h5>
-                      <p>* Sandwich de Lomo especial</p>
-                      <p>* Matambrito</p>
-                  </div>
-              </div>
-
-            </div>             
-    </section>
-
-</main>
-  
-  <!--aqui arranca el footer -->
-  <footer class="text-center text-white" style="background-color: #f1f1f1;">
-
-    <div class="container pt-4">
-      <section class="mb-4">
+          
+      <div class="col-lg-4">
+        <div class="birra-platos">
+          <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-honey.jpg" alt="honey" />
+          <h4>HONEY</h4>
+          <p>* Papas gratinadas con queso tybo</p>
+          <p>* Papas gratinadas con queso cheddar</p>
+        </div>
+      </div>
+    </div><!--se cierra la clase row -->
       
-        <!-- Facebook -->
-        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"> <i class="bi bi-facebook"></i> </a>
+    <div class="row justify-content-center"><!--se abre la clase row -->
+      <div class="col-lg-4">
+        <div class="birra-platos">
+          <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-ipa.jpg" alt="ipa" />
+          <h4>IPA-ALE</h4>
+          <p>* Papas Fritas</p>
+          <p>* Hamburguesa Don Enrique</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="birra-platos">
+          <img class="mx-auto rounded-circle" src="./img/carrusel-cerveza/birra-irish.jpg" alt="irish" />
+          <h4>IRISH</h4>
+          <p>* Sandwich de Lomo especial</p>
+          <p>* Matambrito</p>
+        </div>
+      </div>
+    </div><!--se abre la clase row -->    
+    
+  </div><!-- inicio container de main -->
   
-        <!-- Whatsapp -->
-        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" nrole="button" data-mdb-ripple-color="dark"><i class="bi bi-whatsapp"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i ></a>
-      </section>
-    </div>
-
+</main><!-- fin de main -->
   
-    <!-- Copyright -->
-    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!--aqui termina el footer -->
+<!--aqui arranca el footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="text-center">
+      <!-- Facebook -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.facebook.com/people/Don-Enrique-Beer-food/100063241178163" role="button"> <i class="bi bi-facebook"></i></a>
+      <!-- Whatsapp -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="http://api.whatsapp.com/send?phone=3863534208" nrole="button"><i class="bi bi-whatsapp"></i></a>
+      <!-- Instagram -->
+      <a class="btn btn-link btn-floating btn-lg m-1" href="https://www.instagram.com/don_enrique_beer/?hl=es" role="button"><i class="bi bi-instagram"></i ></a>
+      </div>
+  </div>
+  <hr>
+  <!-- Copyright -->
+  <p class="text-center">
+    © 2021 Copyright - Don Enrique beer & food Todos los derechos reservados
+  </p>
+  <!-- Copyright -->
+</footer>
+<!--aqui termina el footer -->
   
   <!--link js bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>

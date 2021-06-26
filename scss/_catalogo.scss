@@ -52,36 +52,20 @@
 .catalogo-modal{
   .modal-dialog{
     .modal-content{
-    margin-top: 50%;
     box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
     border-radius: 6px;
     border: $oro solid 8px;
     padding-top: 16px;
     padding-bottom: 16px;
-    text-align: center;
     background: $rojo;
     }
   }
 } 
 
-  
   .catalogo-modal .modal-content h2, .catalogo-modal .modal-content .h2 {
-    font-size: 16px;
     line-height: 45px;
   }
 
-  .catalogo-modal .modal-content ul.list-inline {
-    margin-bottom: 16px;
-    @include parrafo;
-    text-align: left;
-    li{
-      list-style:disc;
-    } 
-    ol{
-      list-style:square;
-    }
-
-  }
 
   .boton__modal {
     justify-content: center;
@@ -92,9 +76,3 @@
     transition: all .3s ease-in-out;
     cursor: pointer;
   }
-
-
-.boton__modal:hover {
-  background-color: $orosuave;
-  color: $gris;
-}
